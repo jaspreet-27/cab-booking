@@ -1,14 +1,12 @@
-
-
 import joi from 'joi'
 
 const user = joi.object({
-
-  name: joi.string().optional(),
+  firstName: joi.string().optional(),
+  lastName: joi.string().optional(),
   age: joi.string().optional(),
   email: joi.string().email().optional(),
   password: joi.string().optional(),
-  phoneNo: joi.string().optional()
+  phoneNo: joi.string().optional(),
 })
 
 const login = joi.object({
@@ -16,14 +14,11 @@ const login = joi.object({
   password: joi.string().required(),
 })
 
-
-
 const validationMiddleware = async (req: any, res: any, next: any) => {
   const option = {
     abortEarly: false,
     allowUnknown: false,
   }
-
 
   if (req.body.schema == 'user') {
     var { error } = user.validate(req.body, option)

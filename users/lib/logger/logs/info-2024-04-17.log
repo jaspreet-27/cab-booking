@@ -1,0 +1,309 @@
+2024-04-17 06:43:50 - 0f6d0b0a-c7e4-434c-a7a9-6b4e41d12e37 - error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/model/user/userSchema.ts[0m:[93m62[0m:[93m9[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'default' does not exist in type 'AbstractDataTypeConstructor | AbstractDataType | ModelAttributeColumnOptions<user>'.
+
+[7m62[0m         default:false
+[7m  [0m [91m        ~~~~~~~[0m
+
+  [96msrc/utils/interfaces/userInterface.ts[0m:[93m13[0m:[93m5[0m
+    [7m13[0m     isDeleted?:boolean,
+    [7m  [0m [96m    ~~~~~~~~~[0m
+    The expected type comes from property 'isDeleted' which is declared here on type 'ModelAttributes<user, Optional<User, never>>'
+[96msrc/model/user/userSchema.ts[0m:[93m62[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m62[0m         default:false
+[7m  [0m [91m        ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/model/user/userSchema.ts[0m:[93m62[0m:[93m9[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'default' does not exist in type 'AbstractDataTypeConstructor | AbstractDataType | ModelAttributeColumnOptions<user>'.
+
+[7m62[0m         default:false
+[7m  [0m [91m        ~~~~~~~[0m
+
+  [96msrc/utils/interfaces/userInterface.ts[0m:[93m13[0m:[93m5[0m
+    [7m13[0m     isDeleted?:boolean,
+    [7m  [0m [96m    ~~~~~~~~~[0m
+    The expected type comes from property 'isDeleted' which is declared here on type 'ModelAttributes<user, Optional<User, never>>'
+[96msrc/model/user/userSchema.ts[0m:[93m62[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m62[0m         default:false
+[7m  [0m [91m        ~~~~~~~[0m
+
+    at createTSError (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19) {
+  "error": {
+    "diagnosticCodes": [
+      2353,
+      1005
+    ]
+  },
+  "stack": "TSError: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/model/user/userSchema.ts\u001b[0m:\u001b[93m62\u001b[0m:\u001b[93m9\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2353: \u001b[0mObject literal may only specify known properties, and 'default' does not exist in type 'AbstractDataTypeConstructor | AbstractDataType | ModelAttributeColumnOptions<user>'.\n\n\u001b[7m62\u001b[0m         default:false\n\u001b[7m  \u001b[0m \u001b[91m        ~~~~~~~\u001b[0m\n\n  \u001b[96msrc/utils/interfaces/userInterface.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m5\u001b[0m\n    \u001b[7m13\u001b[0m     isDeleted?:boolean,\n    \u001b[7m  \u001b[0m \u001b[96m    ~~~~~~~~~\u001b[0m\n    The expected type comes from property 'isDeleted' which is declared here on type 'ModelAttributes<user, Optional<User, never>>'\n\u001b[96msrc/model/user/userSchema.ts\u001b[0m:\u001b[93m62\u001b[0m:\u001b[93m9\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\n\n\u001b[7m62\u001b[0m         default:false\n\u001b[7m  \u001b[0m \u001b[91m        ~~~~~~~\u001b[0m\n\n    at createTSError (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:859:12)\n    at reportTSError (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:863:19)\n    at getOutput (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1077:36)\n    at Object.compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1433:41)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1617:30)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)",
+  "exception": true,
+  "date": "Wed Apr 17 2024 12:13:50 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 23289,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 242814976,
+      "heapTotal": 164552704,
+      "heapUsed": 135090232,
+      "external": 5327370,
+      "arrayBuffers": 2436152
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.05,
+      0.87,
+      0.75
+    ],
+    "uptime": 7985.56
+  },
+  "trace": [
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "createTSError",
+      "line": 859,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "reportTSError",
+      "line": 863,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 36,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "getOutput",
+      "line": 1077,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 41,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.compile",
+      "line": 1433,
+      "method": "compile",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1617,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1206,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 1022,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    }
+  ]
+}
+2024-04-17 06:44:32 - 6ac7c0f0-853b-44fc-bea2-616b823b6c92 - error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/model/user/userSchema.ts[0m:[93m62[0m:[93m9[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'default' does not exist in type 'AbstractDataTypeConstructor | AbstractDataType | ModelAttributeColumnOptions<user>'.
+
+[7m62[0m         default:false
+[7m  [0m [91m        ~~~~~~~[0m
+
+  [96msrc/utils/interfaces/userInterface.ts[0m:[93m13[0m:[93m5[0m
+    [7m13[0m     isDeleted?:boolean,
+    [7m  [0m [96m    ~~~~~~~~~[0m
+    The expected type comes from property 'isDeleted' which is declared here on type 'ModelAttributes<user, Optional<User, never>>'
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/model/user/userSchema.ts[0m:[93m62[0m:[93m9[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'default' does not exist in type 'AbstractDataTypeConstructor | AbstractDataType | ModelAttributeColumnOptions<user>'.
+
+[7m62[0m         default:false
+[7m  [0m [91m        ~~~~~~~[0m
+
+  [96msrc/utils/interfaces/userInterface.ts[0m:[93m13[0m:[93m5[0m
+    [7m13[0m     isDeleted?:boolean,
+    [7m  [0m [96m    ~~~~~~~~~[0m
+    The expected type comes from property 'isDeleted' which is declared here on type 'ModelAttributes<user, Optional<User, never>>'
+
+    at createTSError (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19) {
+  "error": {
+    "diagnosticCodes": [
+      2353
+    ]
+  },
+  "stack": "TSError: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/model/user/userSchema.ts\u001b[0m:\u001b[93m62\u001b[0m:\u001b[93m9\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2353: \u001b[0mObject literal may only specify known properties, and 'default' does not exist in type 'AbstractDataTypeConstructor | AbstractDataType | ModelAttributeColumnOptions<user>'.\n\n\u001b[7m62\u001b[0m         default:false\n\u001b[7m  \u001b[0m \u001b[91m        ~~~~~~~\u001b[0m\n\n  \u001b[96msrc/utils/interfaces/userInterface.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m5\u001b[0m\n    \u001b[7m13\u001b[0m     isDeleted?:boolean,\n    \u001b[7m  \u001b[0m \u001b[96m    ~~~~~~~~~\u001b[0m\n    The expected type comes from property 'isDeleted' which is declared here on type 'ModelAttributes<user, Optional<User, never>>'\n\n    at createTSError (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:859:12)\n    at reportTSError (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:863:19)\n    at getOutput (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1077:36)\n    at Object.compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1433:41)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1617:30)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)",
+  "exception": true,
+  "date": "Wed Apr 17 2024 12:14:32 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 23616,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 241954816,
+      "heapTotal": 164552704,
+      "heapUsed": 135383472,
+      "external": 5258129,
+      "arrayBuffers": 2366911
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.18,
+      0.94,
+      0.78
+    ],
+    "uptime": 8027.73
+  },
+  "trace": [
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "createTSError",
+      "line": 859,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "reportTSError",
+      "line": 863,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 36,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "getOutput",
+      "line": 1077,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 41,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.compile",
+      "line": 1433,
+      "method": "compile",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1617,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1206,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 1022,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    }
+  ]
+}
