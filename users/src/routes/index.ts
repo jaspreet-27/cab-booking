@@ -1,6 +1,6 @@
-// import { Express } from 'express';
+// import { Express ,Router} from 'express';
 // import userRoute from './user/userRoutes';
-// ]
-// router.use('/user', userRoute);
+
+// Router.use('/user', userRoute);
 
 // export default router;

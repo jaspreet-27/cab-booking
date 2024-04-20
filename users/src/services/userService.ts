@@ -1,12 +1,14 @@
 import logger from '../utils/logger/logger'
-import { hashPassword, comparePassword } from '../utils/comman/comman'
+import { hashPassword } from '../utils/comman/comman'
 import userModel from '../model/user/userSchema'
 import {mailTransporter} from '../email/email'
+import {User,UserUpdateAttribute,UserDeleteAttribute,UserGetAttribute} from "../utils/interfaces/userInterface"
 
 
 
 // *****************************Create user service*******************************
-async function createUser(body:any) {
+
+async function createUser(body:User) {
   try {
     const user = await userModel.user.findOne({
       where: { email: body.email, isDeleted: false },
@@ -32,8 +34,10 @@ async function createUser(body:any) {
       });
 
 
-    
-      const password = await hashPassword(body.password)
+    const hashpw = await hashPassword(body.password)
+    body.password = hashpw
+
+      // const password = await hashPassword(body.password)
       return await userModel.user.create(body)
     }
   } catch (err) {
@@ -43,7 +47,7 @@ async function createUser(body:any) {
 }
 
 // *****************************Get user service***********************************
-async function getUsers(data: any) {
+async function getUsers(data) {
   try {
     return await userModel.user.findAll({
       where: { isDeleted: false },
@@ -58,7 +62,7 @@ async function getUsers(data: any) {
 }
 
 //****************************** get user by id service ***********************************
-async function getUserById(params: any, body: any) {
+async function getUserById(params:UserGetAttribute) {
   try {
     const users = await userModel.user.findByPk(params.id)
     if (!users) {
@@ -66,13 +70,13 @@ async function getUserById(params: any, body: any) {
     } else {
       return users
     }
-  } catch (err: any) {
+  } catch (err) {
     logger.error(err)
     throw new Error(err.message)
   }
 }
 // *****************************Update user service*******************************
-async function updateUser(params: any, body: any) {
+async function updateUser(params, body:UserUpdateAttribute) {
   try {
     const users = await userModel.user.findOne({
       where: {
@@ -84,13 +88,13 @@ async function updateUser(params: any, body: any) {
     } else {
       return await users.update(body)
     }
-  } catch (err: any) {
+  } catch (err) {
     logger.error(err)
     throw new Error(err.message)
   }
 }
 // *****************************Delete user service*******************************
-async function deleteUser(params: any) {
+async function deleteUser(params:UserDeleteAttribute) {
   try {
     const users = await userModel.user.findOne({
       where: {
@@ -107,7 +111,7 @@ async function deleteUser(params: any) {
         deletedBy: users.id,
       })
     }
-  } catch (err: any) {
+  } catch (err) {
     logger.error(err)
     throw new Error(err.message)
   }

@@ -1,9 +1,10 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import express, { Request, Response } from 'express'
 import routes from './src/routes/user/userRoutes'
 import { PORT } from './env'
 import helmet from 'helmet'
 import cors from 'cors'
-import {mailTransporter} from './src/email/email'
+// import {mailTransporter} from './src/email/email'
 
 const app = express()
 process.env.PORT || 8000
