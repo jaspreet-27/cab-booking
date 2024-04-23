@@ -10,14 +10,14 @@ const app = express()
 process.env.PORT || 8000
 
 app.use(express.json())
-routes(app)
+
 
 // Use Helmet middleware
 app.use(helmet())
 
 // Use CORS middleware
 app.use(cors())
-
+routes(app)
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`)

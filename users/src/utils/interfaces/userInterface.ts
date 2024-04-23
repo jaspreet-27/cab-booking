@@ -1,4 +1,4 @@
-export interface User{
+export interface User {
   id?: string
   firstName: string
   lastName: string
@@ -13,7 +13,7 @@ export interface User{
   isDeleted?: boolean
 }
 
-export interface UserUpdateAttribute{
+export interface UserUpdateAttribute {
   id?: string
   firstName?: string
   lastName?: string
@@ -27,11 +27,11 @@ export interface UserUpdateAttribute{
   deletedBy?: string
   isDeleted?: boolean
 }
-export interface UserDeleteAttribute{
+export interface UserDeleteAttribute {
   id?: string
 }
 
-export interface UserGetAttribute{
+export interface UserGetAttribute {
   id?: string
 }
 

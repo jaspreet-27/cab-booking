@@ -67,7 +67,7 @@ user.init(
   {
     sequelize,
     modelName: 'user',
-  },
+  }
 )
 
 sequelize

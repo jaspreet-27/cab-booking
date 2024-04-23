@@ -1,6 +1,6 @@
 ********************CAR BOOKING PROJECT****************************************
 
-# Nodejs-Microservices is the Microservices sample project in node.js with MySQL
+#  Microservices project in node.js with MySQL
 
 ## What will you need
 
@@ -39,6 +39,6 @@ The following topics were covered in this unit:
 - Postman collection
 - Bash script
 
----
+
 
 

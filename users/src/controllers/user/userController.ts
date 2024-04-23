@@ -125,12 +125,80 @@ async function deleteUser(req: Request, res: Response) {
       )
   }
 }
+// ***********************login api****************************************
 
+
+
+//  async login(req: Request, res: Response) {
+//   try {
+//     const data = await userService.login(req.body)
+//     if (data === 'invalidUser') {
+//       res.status(statusCode.success).json(failResponse(statusCode.success, data, message.invalidlogin))
+//     } else if (data === 'notExist') {
+//       res.status(statusCode.success).json(failResponse(statusCode.success, data, message.notExist('User')))
+//     } else {
+//       res.status(statusCode.success).json(successResponse(statusCode.success, data, message.login))
+//     }
+//   } catch (err: any) {
+//     logger.error(message.errorLog('login', 'userController', err))
+//     res.status(statusCode.badRequest).json(failResponse(statusCode.badRequest, err.message, message.somethingWrong))
+//   }
+// }
+
+async function changePassword(req: Request, res: Response) {
+  try {
+    const data = req.body
+    const CustomerId: string = req.params.id
+
+    const customerData = await userService.changePasswordService(
+      data,
+      CustomerId,
+    )
+    if (customerData == 'newPassword!=ConfirmPassword') {
+      res
+        .status(statusCode.badRequest)
+        .json(failResponse(statusCode.notAllowed, data, message.somethingWrong))
+    } else if (customerData == 'userDoesNotExists') {
+      res
+        .status(statusCode.notFound)
+        .json(
+          failResponse(
+            statusCode.emailOrUserExist,
+            data,
+            message.notExist('User'),
+          ),
+        )
+    } else if (customerData == 'oldPasswordIncorrect') {
+      res
+        .status(statusCode.badRequest)
+        .json(failResponse(statusCode.badRequest, data, message.invalidRequest))
+    } else {
+      res
+        .status(statusCode.success)
+        .json(
+          successResponse(statusCode.success, data, message.update('Password')),
+        )
+    }
+  } catch (err) {
+    logger.error(message.errorLog('userUpdate', 'userController', err))
+    res
+      .status(statusCode.emailOrUserExist)
+      .json(
+        failResponse(
+          statusCode.badRequest,
+          err.message,
+          message.somethingWrong,
+        ),
+      )
+  }
+}
 export default {
   createUser,
   updateUser,
   deleteUser,
   getUsers,
   getUser,
+  changePassword
+  // login
 }
 

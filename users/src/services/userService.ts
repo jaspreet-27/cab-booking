@@ -1,5 +1,5 @@
 import logger from '../utils/logger/logger'
-import { hashPassword } from '../utils/comman/comman'
+import { hashPassword,comparePassword } from '../utils/comman/comman'
 import userModel from '../model/user/userSchema'
 import {mailTransporter} from '../email/email'
 import {User,UserUpdateAttribute,UserDeleteAttribute,UserGetAttribute} from "../utils/interfaces/userInterface"
@@ -25,7 +25,7 @@ async function createUser(body:User) {
       }
       console.log(mailDetails)
        mailTransporter.sendMail(mailDetails)
-      mailTransporter.sendMail(mailDetails, function (err, data) {
+      mailTransporter.sendMail(mailDetails, function (err) {
         if (err) {
           console.log('Error:Email not Sent', err)
         } else {
@@ -93,6 +93,44 @@ async function updateUser(params, body:UserUpdateAttribute) {
     throw new Error(err.message)
   }
 }
+
+
+// async function updateUser(params: any, body: any) {
+//   try {
+//     // Attempt to find a user with the given ID and email
+//     const user = await userModel.user.findOne({
+//       where: {
+//         id: params.id,
+//         email: {
+//           [Op.ne]: body.email // Exclude this particular email value
+//         }
+//       },
+//     });
+
+//     // If user doesn't exist, return 'notExist'
+//     if (!user) {
+//       return 'notExist';
+//     } else {
+//       // If user exists, update its information with the provided body data
+//       if(user.email === body.email)
+//         {
+//           // mesage
+//         }else{
+//           // update user
+
+//           return await user.update(body);
+//         }
+
+//     }
+//   } catch (err: any) {
+//     // Log any errors and rethrow the error with a custom message
+//     logger.error(err);
+//     throw new Error(err.message);
+//   }
+// }
+
+
+
 // *****************************Delete user service*******************************
 async function deleteUser(params:UserDeleteAttribute) {
   try {
@@ -116,5 +154,69 @@ async function deleteUser(params:UserDeleteAttribute) {
     throw new Error(err.message)
   }
 }
+// **********************login user service**************************************
 
-export default { createUser, updateUser, deleteUser, getUsers, getUserById }
+
+// async login(body: any) {
+//   try {
+//     const user = await userModel.user.findOne({ where: { email: body.email } })
+
+//     if (user) {
+//       if ((await comparePassword(body.password, user.password)) === true) {
+//         const token = jwt.sign({ userId: user.id }, jwtSecret, {
+//           expiresIn: 60 * 60,
+//         })
+//         user.dataValues['token'] = token
+//         delete user.dataValues.password
+//         db.authentications.create({
+//           // Save authentications
+//           userId: user.id,
+//           authToken: token,
+//           expiresIn: 60 * 60,
+//         })
+
+//         return user
+//       } else {
+//         return 'invalidUser'
+//       }
+//     } else {
+//       return 'notExist'
+//     }
+//   } catch (err: any) {
+//     logger.error(err)
+//     throw new Error(err.message)
+//   }
+// }
+
+
+async function changePasswordService(data, customerId: string) {
+
+  try {
+    const { oldPassword, newPassword, confirmPassword } = data;
+
+
+    if (newPassword !== confirmPassword) {
+      return 'newPassword!=ConfirmPassword'
+    }
+    const existingUser = await userModel.user.findByPk(customerId);
+    if (!existingUser) {
+      return 'userDoesNotExists'
+    }
+    console.log(existingUser)
+    const isMatch = await comparePassword(oldPassword, existingUser.password);
+    if (!isMatch) {
+      return 'oldPasswordIncorrect'
+    }
+    const pass = await hashPassword(newPassword)
+    existingUser.password = pass
+    await existingUser.update({ password: pass });
+
+    return existingUser
+  }
+  catch (err) {
+    logger.error(err)
+    throw new Error(err.message)
+  }
+}
+
+export default { createUser, updateUser, deleteUser, getUsers, getUserById ,changePasswordService}
