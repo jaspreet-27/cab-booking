@@ -1,4 +1,4 @@
-import nodemailer from 'nodemailer'
+import nodemailer from 'nodemailer';
 export const mailTransporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
@@ -6,4 +6,4 @@ export const mailTransporter = nodemailer.createTransport({
     pass: 'carq velv hjjl kdpv',
   },
   
-})
+});

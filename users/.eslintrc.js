@@ -28,7 +28,7 @@ module.exports = {
     'no-unused-vars': 'error',
     'consistent-return': 'error',
     complexity: ['error', 10],
-    'no-console': 'warn',
+    // 'no-console': 'warn',
     '@typescript-eslint/no-explicit-any': 'off',
   },
 };

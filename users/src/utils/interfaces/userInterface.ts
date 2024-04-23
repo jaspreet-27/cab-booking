@@ -11,6 +11,8 @@ export interface User {
   deletedAt?: Date
   deletedBy?: string
   isDeleted?: boolean
+  otp?: number
+  otpExipration?: Date
 }
 
 export interface UserUpdateAttribute {

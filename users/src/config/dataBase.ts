@@ -1,4 +1,4 @@
-import { Sequelize } from 'sequelize'
+import { Sequelize } from 'sequelize';
 
 const sequelize = new Sequelize(
   'Cab Booking',
@@ -10,15 +10,15 @@ const sequelize = new Sequelize(
     port: 3306,
     dialect: 'mysql',
   },
-)
+);
 
 sequelize
   .authenticate()
   .then(() => {
-    console.log('Connection has been established successfully.')
+    console.log('Connection has been established successfully.');
   })
   .catch((error: any) => {
-    console.error('Unable to connect to the database: ', error)
-  })
+    console.error('Unable to connect to the database: ', error);
+  });
 
-export default sequelize
+export default sequelize;

@@ -7,27 +7,27 @@ export const message = {
 
   invalidlogin: 'Invalid login credentials. Please check and try again.',
   add: (labal: string) => {
-    return `${labal} added successfully.`
+    return `${labal} added successfully.`;
   },
   fetch: (labal: string) => {
-    return `${labal} fetched successfully.`
+    return `${labal} fetched successfully.`;
   },
   update: (labal: string) => {
-    return `${labal} updated successfully.`
+    return `${labal} updated successfully.`;
   },
   delete: (labal: string) => {
-    return `${labal} deleted successfully.`
+    return `${labal} deleted successfully.`;
   },
   notExist: (labal: string) => {
-    return `${labal} not exist.`
+    return `${labal} not exist.`;
   },
   alreadyExist: (labal: string) => {
-    return `${labal} already exist.`
+    return `${labal} already exist.`;
   },
   errorLog: (functionName: string, controllerName: string, err: any) => {
-    return `${functionName} ${controllerName} Error @ ${err}`
+    return `${functionName} ${controllerName} Error @ ${err}`;
   },
-}
+};
 
 export const statusCode = {
   success: 200,
@@ -42,4 +42,4 @@ export const statusCode = {
   accountDeactivated: 209,
   authTokenRequired: 499,
   unauthorized: 403,
-}
+};
