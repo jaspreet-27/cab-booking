@@ -5,5 +5,4 @@ export const mailTransporter = nodemailer.createTransport({
     user: 'mailto:jaspreetkaurwins@gmail.com',
     pass: 'carq velv hjjl kdpv',
   },
-  
 });

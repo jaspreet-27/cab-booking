@@ -1,14 +1,41 @@
 import logger from '../utils/logger/logger';
-import { hashPassword,comparePassword } from '../utils/comman/comman';
+import { hashPassword, comparePassword } from '../utils/comman/comman';
 import userModel from '../model/user/userSchema';
-import {mailTransporter} from '../email/email';
-import {User,UserUpdateAttribute,UserDeleteAttribute,UserGetAttribute} from '../utils/interfaces/userInterface';
+import { mailTransporter } from '../email/email';
+import { User, UserUpdateAttribute, UserDeleteAttribute, UserGetAttribute } from '../utils/interfaces/userInterface';
+import Redis from 'ioredis';
+const publisher = new Redis();
+const subscriber = new Redis();
+subscriber.subscribe('users_channel');
 
+
+
+
+export async function handleUserRelatedData(channel: string, message: string) {
+  try {
+    console.log('in');
+    console.log('in');
+    if (channel === 'rides_channel') {
+      const userData:any = JSON.parse(message);
+      console.log('in',userData);
+      // Process the received user-related data
+      const user = await userModel.user.findOne({ where: { id :userData}});
+      if (user) {
+        console.log('User found:', user);
+        // Process the user data as needed
+
+        await publisher.publish('users_channel', JSON.stringify(user));
+      } else {
+        await publisher.publish('users_channel', null);
+      }}} catch (error) {
+    logger.error('Error handling user-related data:', error);
+  }
+}
 
 
 // *****************************Create user service*******************************
 
-async function createUser(body:User) {
+async function createUser(body: User) {
   try {
     const user = await userModel.user.findOne({
       where: { email: body.email, isDeleted: false },
@@ -17,7 +44,6 @@ async function createUser(body:User) {
     if (user) {
       return 'userAlreadyExist';
     } else {
-
       const mailDetails = {
         to: body.email,
         subject: 'Account created.',
@@ -32,7 +58,6 @@ async function createUser(body:User) {
           console.log('Email sent successfully');
         }
       });
-
 
       const hashpw = await hashPassword(body.password);
       body.password = hashpw;
@@ -62,7 +87,7 @@ async function getUsers(data) {
 }
 
 //****************************** get user by id service ***********************************
-async function getUserById(params:UserGetAttribute) {
+async function getUserById(params: UserGetAttribute) {
   try {
     const users = await userModel.user.findByPk(params.id);
     if (!users) {
@@ -76,7 +101,7 @@ async function getUserById(params:UserGetAttribute) {
   }
 }
 // *****************************Update user service*******************************
-async function updateUser(params, body:UserUpdateAttribute) {
+async function updateUser(params, body: UserUpdateAttribute) {
   try {
     const users = await userModel.user.findOne({
       where: {
@@ -93,7 +118,6 @@ async function updateUser(params, body:UserUpdateAttribute) {
     throw new Error(err.message);
   }
 }
-
 
 // async function updateUser(params: any, body: any) {
 //   try {
@@ -129,10 +153,8 @@ async function updateUser(params, body:UserUpdateAttribute) {
 //   }
 // }
 
-
-
 // *****************************Delete user service*******************************
-async function deleteUser(params:UserDeleteAttribute) {
+async function deleteUser(params: UserDeleteAttribute) {
   try {
     const users = await userModel.user.findOne({
       where: {
@@ -155,7 +177,6 @@ async function deleteUser(params:UserDeleteAttribute) {
   }
 }
 // **********************login user service**************************************
-
 
 // async login(body: any) {
 //   try {
@@ -188,12 +209,9 @@ async function deleteUser(params:UserDeleteAttribute) {
 //   }
 // }
 
-
 async function changePasswordService(data, customerId: string) {
-
   try {
     const { oldPassword, newPassword, confirmPassword } = data;
-
 
     if (newPassword !== confirmPassword) {
       return 'newPassword!=ConfirmPassword';
@@ -212,17 +230,11 @@ async function changePasswordService(data, customerId: string) {
     await existingUser.update({ password: pass });
 
     return existingUser;
-  }
-  catch (err) {
+  } catch (err) {
     logger.error(err);
     throw new Error(err.message);
   }
 }
-
-
-
-
-
 
 async function resetPasswordService(data) {
   try {
@@ -234,8 +246,8 @@ async function resetPasswordService(data) {
 
     const existingUser = await userModel.user.findOne({
       where: {
-        email
-      }
+        email,
+      },
     });
 
     if (!existingUser) {
@@ -248,7 +260,7 @@ async function resetPasswordService(data) {
       return 'incorrectOtp';
     }
 
-    const otpExipration:any = existingUser.otpExipration;
+    const otpExipration: any = existingUser.otpExipration;
 
     if (otpExipration < new Date(Date.now())) {
       console.log(otpExipration, new Date(Date.now()));
@@ -281,15 +293,13 @@ async function resetPasswordService(data) {
   }
 }
 
-
 async function resetPasswordEmailService(data) {
-
   try {
     const { email } = data;
     const existingUser = await userModel.user.findOne({
       where: {
-        email
-      }
+        email,
+      },
     });
     if (!existingUser) {
       return 'userDoesNotExists';
@@ -299,7 +309,7 @@ async function resetPasswordEmailService(data) {
     const otpExipration = new Date(Date.now() + 600000);
     console.log(otpExipration);
     const mailDetails = {
-      // from: '', 
+      // from: '',
       to: existingUser?.email,
       subject: 'Request for password reset.',
       text: `You have received a one-time password (OTP) for updating your password. The otp is ${otp} and will expire in the next 10 minutes.`,
@@ -333,11 +343,4 @@ async function resetPasswordEmailService(data) {
   }
 }
 
-
-
-
-
-
-
-
-export default { createUser, updateUser, deleteUser, getUsers, getUserById ,changePasswordService, resetPasswordService, resetPasswordEmailService};
+export default { createUser, updateUser, deleteUser, getUsers, getUserById, changePasswordService, handleUserRelatedData, resetPasswordService, resetPasswordEmailService };

@@ -6,9 +6,9 @@ export interface Ride {
     to: string;
     time: Date;
     date: Date;
-    driverId: string;
+    driverId?: string;
     price: number;
-    status: Status;
+    status?: Status;
     createdAt?: Date
     updatedAt?: Date
     deletedAt?: Date

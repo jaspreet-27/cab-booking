@@ -1,0 +1,4080 @@
+2024-04-24 07:10:28 - 7c82c7d0-66be-437f-830b-bfaf2b085000 - error: uncaughtException: Cannot find module 'ioredis'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/ride/index.ts
+Error: Cannot find module 'ioredis'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/ride/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:8:15)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'ioredis'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/ride/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:8:15)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 12:40:28 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 22739,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 263757824,
+      "heapTotal": 173559808,
+      "heapUsed": 141829928,
+      "external": 5325853,
+      "arrayBuffers": 2451955
+    }
+  },
+  "os": {
+    "loadavg": [
+      0.61,
+      0.82,
+      0.86
+    ],
+    "uptime": 11368.59
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 8,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-24 07:12:06 - 7a6ca837-0ee9-4a54-8291-0fa014905665 - error: uncaughtException: Cannot find module 'ioredis'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/ride/index.ts
+Error: Cannot find module 'ioredis'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/ride/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:8:15)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'ioredis'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/ride/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:8:15)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 12:42:06 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 23846,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 247943168,
+      "heapTotal": 167006208,
+      "heapUsed": 145540352,
+      "external": 6496901,
+      "arrayBuffers": 3623289
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.89,
+      1.11,
+      0.95
+    ],
+    "uptime": 11467.52
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 8,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-24 07:13:15 - fe2eda26-fe95-4247-9a53-9c0de3fe01f5 - error: uncaughtException: Cannot find module 'ioredis'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/ride/index.ts
+Error: Cannot find module 'ioredis'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/ride/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:8:15)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'ioredis'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/ride/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:8:15)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 12:43:15 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 24474,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 249192448,
+      "heapTotal": 169103360,
+      "heapUsed": 145463920,
+      "external": 6496821,
+      "arrayBuffers": 3623209
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.3,
+      1.09,
+      0.96
+    ],
+    "uptime": 11536.14
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 8,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-24 07:13:22 - adce7494-14a5-4ec2-ba05-653b1ee9e2c1 - error: uncaughtException: Cannot find module 'ioredis'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/ride/index.ts
+Error: Cannot find module 'ioredis'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/ride/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:8:15)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'ioredis'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/ride/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:8:15)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 12:43:22 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 24761,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 248094720,
+      "heapTotal": 169889792,
+      "heapUsed": 146067512,
+      "external": 6496797,
+      "arrayBuffers": 3623185
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.43,
+      1.12,
+      0.97
+    ],
+    "uptime": 11542.79
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 8,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-24 07:13:41 - 45dd4343-4cd5-4512-9f8f-91745ebb1d6f - error: uncaughtException: Cannot find module 'ioredis'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/ride/index.ts
+Error: Cannot find module 'ioredis'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/ride/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:8:15)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'ioredis'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/ride/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:8:15)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 12:43:41 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 25390,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 249356288,
+      "heapTotal": 168579072,
+      "heapUsed": 146795208,
+      "external": 6496813,
+      "arrayBuffers": 3623201
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.98,
+      1.26,
+      1.02
+    ],
+    "uptime": 11562.43
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 8,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-24 07:14:12 - ff4899aa-1324-41c8-ac8f-6712dbdbb559 - error: uncaughtException: Cannot find module 'ioredis'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/ride/index.ts
+Error: Cannot find module 'ioredis'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/ride/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:8:15)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'ioredis'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/ride/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:8:15)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 12:44:12 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 25728,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 251002880,
+      "heapTotal": 168054784,
+      "heapUsed": 147739192,
+      "external": 6496805,
+      "arrayBuffers": 3623193
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.63,
+      1.25,
+      1.02
+    ],
+    "uptime": 11593.23
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 8,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-24 09:40:24 - 0fbf9287-bb97-4533-b078-3e1908cda867 - error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle (node:net:1897:16)
+    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)
+    at listenInCluster (node:net:1945:12)
+    at Server.listen (node:net:2037:7)
+    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:55:5)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -98,
+    "syscall": "listen",
+    "address": "::",
+    "port": 4000
+  },
+  "stack": "Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle (node:net:1897:16)\n    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)\n    at listenInCluster (node:net:1945:12)\n    at Server.listen (node:net:2037:7)\n    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:55:5)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 15:10:24 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 54949,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 271310848,
+      "heapTotal": 190619648,
+      "heapUsed": 162102520,
+      "external": 6622140,
+      "arrayBuffers": 3728972
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.49,
+      2.47,
+      2.26
+    ],
+    "uptime": 20364.7
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle",
+      "line": 1897,
+      "method": "setupListenHandle",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": "Server._listen2",
+      "line": 97,
+      "method": "_listen2",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2037,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 55,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-24 09:42:05 - ce377610-33f0-48ec-ae27-dad18d049aae - error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle (node:net:1897:16)
+    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)
+    at listenInCluster (node:net:1945:12)
+    at Server.listen (node:net:2037:7)
+    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:113:20)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -98,
+    "syscall": "listen",
+    "address": "::",
+    "port": 4000
+  },
+  "stack": "Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle (node:net:1897:16)\n    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)\n    at listenInCluster (node:net:1945:12)\n    at Server.listen (node:net:2037:7)\n    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:113:20)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 15:12:05 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 55850,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 271949824,
+      "heapTotal": 190095360,
+      "heapUsed": 158533840,
+      "external": 6554810,
+      "arrayBuffers": 3661642
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.97,
+      2.64,
+      2.34
+    ],
+    "uptime": 20466.32
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle",
+      "line": 1897,
+      "method": "setupListenHandle",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": "Server._listen2",
+      "line": 97,
+      "method": "_listen2",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2037,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 113,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-24 09:43:10 - 33b1883b-16ca-4efc-8181-7c43d327ca1d - error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle (node:net:1897:16)
+    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)
+    at listenInCluster (node:net:1945:12)
+    at Server.listen (node:net:2037:7)
+    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:113:20)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -98,
+    "syscall": "listen",
+    "address": "::",
+    "port": 4000
+  },
+  "stack": "Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle (node:net:1897:16)\n    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)\n    at listenInCluster (node:net:1945:12)\n    at Server.listen (node:net:2037:7)\n    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:113:20)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 15:13:10 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 56180,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 273690624,
+      "heapTotal": 190095360,
+      "heapUsed": 164153648,
+      "external": 6785184,
+      "arrayBuffers": 3892016
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.3,
+      2.78,
+      2.41
+    ],
+    "uptime": 20530.93
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle",
+      "line": 1897,
+      "method": "setupListenHandle",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": "Server._listen2",
+      "line": 97,
+      "method": "_listen2",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2037,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 113,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-24 09:44:15 - 5ce3ecac-0553-4e1f-a014-d193d82b8db2 - error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle (node:net:1897:16)
+    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)
+    at listenInCluster (node:net:1945:12)
+    at Server.listen (node:net:2037:7)
+    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:113:20)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -98,
+    "syscall": "listen",
+    "address": "::",
+    "port": 4000
+  },
+  "stack": "Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle (node:net:1897:16)\n    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)\n    at listenInCluster (node:net:1945:12)\n    at Server.listen (node:net:2037:7)\n    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:113:20)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 15:14:15 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 56755,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 272076800,
+      "heapTotal": 190619648,
+      "heapUsed": 158694808,
+      "external": 6554874,
+      "arrayBuffers": 3661706
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.65,
+      2.7,
+      2.41
+    ],
+    "uptime": 20596.23
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle",
+      "line": 1897,
+      "method": "setupListenHandle",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": "Server._listen2",
+      "line": 97,
+      "method": "_listen2",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2037,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 113,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-24 09:45:36 - 8f275f79-41b9-4d1e-b83f-5e16629ba2b0 - error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle (node:net:1897:16)
+    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)
+    at listenInCluster (node:net:1945:12)
+    at Server.listen (node:net:2037:7)
+    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:44:20)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -98,
+    "syscall": "listen",
+    "address": "::",
+    "port": 4000
+  },
+  "stack": "Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle (node:net:1897:16)\n    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)\n    at listenInCluster (node:net:1945:12)\n    at Server.listen (node:net:2037:7)\n    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:44:20)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 15:15:36 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 57220,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 266665984,
+      "heapTotal": 186425344,
+      "heapUsed": 165738488,
+      "external": 6549081,
+      "arrayBuffers": 3655913
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.02,
+      2.77,
+      2.45
+    ],
+    "uptime": 20676.59
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle",
+      "line": 1897,
+      "method": "setupListenHandle",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": "Server._listen2",
+      "line": 97,
+      "method": "_listen2",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2037,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 44,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-24 09:46:39 - 192c264c-f348-4dc1-9998-ba2da0ef1459 - error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle (node:net:1897:16)
+    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)
+    at listenInCluster (node:net:1945:12)
+    at Server.listen (node:net:2037:7)
+    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:113:20)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -98,
+    "syscall": "listen",
+    "address": "::",
+    "port": 4000
+  },
+  "stack": "Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle (node:net:1897:16)\n    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)\n    at listenInCluster (node:net:1945:12)\n    at Server.listen (node:net:2037:7)\n    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:113:20)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 15:16:39 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 57741,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 272797696,
+      "heapTotal": 191406080,
+      "heapUsed": 158217936,
+      "external": 6554762,
+      "arrayBuffers": 3661594
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.68,
+      2.72,
+      2.45
+    ],
+    "uptime": 20739.68
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle",
+      "line": 1897,
+      "method": "setupListenHandle",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": "Server._listen2",
+      "line": 97,
+      "method": "_listen2",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2037,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 113,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-24 09:50:55 - 7e522e1e-2170-4964-ab50-a1eb23dd5311 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at /home/ditsdev152/Desktop/cab-booking/ride/index.ts:95:13
+    at tryCatcher (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/standard-as-callback/built/utils.js:12:23)
+    at /home/ditsdev152/Desktop/cab-booking/ride/node_modules/standard-as-callback/built/index.js:22:53 {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at /home/ditsdev152/Desktop/cab-booking/ride/index.ts:95:13\n    at tryCatcher (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/standard-as-callback/built/utils.js:12:23)\n    at /home/ditsdev152/Desktop/cab-booking/ride/node_modules/standard-as-callback/built/index.js:22:53",
+  "exception": true,
+  "date": "Wed Apr 24 2024 15:20:55 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 58816,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 273002496,
+      "heapTotal": 194105344,
+      "heapUsed": 164108624,
+      "external": 6748978,
+      "arrayBuffers": 3854716
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.75,
+      2.69,
+      2.5
+    ],
+    "uptime": 20995.99
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 95,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/standard-as-callback/built/utils.js",
+      "function": "tryCatcher",
+      "line": 12,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 53,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/standard-as-callback/built/index.js",
+      "function": null,
+      "line": 22,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2024-04-24 09:50:55 - f90adbce-5e16-4c73-8036-94edc16db1f8 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)
+    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)
+    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27) {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)\n    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)\n    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 15:20:55 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 58816,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 273264640,
+      "heapTotal": 194367488,
+      "heapUsed": 166643664,
+      "external": 6952430,
+      "arrayBuffers": 4056080
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.75,
+      2.69,
+      2.5
+    ],
+    "uptime": 20996.05
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js",
+      "function": "Sequelize.log",
+      "line": 1281,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 22,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js",
+      "function": "Query._logQuery",
+      "line": 376,
+      "method": "_logQuery",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js",
+      "function": "Query.run",
+      "line": 39,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+2024-04-24 09:50:55 - c709c248-fd27-4207-af90-101388eeda97 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)
+    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)
+    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27) {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)\n    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)\n    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 15:20:55 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 58816,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 273264640,
+      "heapTotal": 194367488,
+      "heapUsed": 166846544,
+      "external": 6961590,
+      "arrayBuffers": 4065240
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.75,
+      2.69,
+      2.5
+    ],
+    "uptime": 20996.06
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js",
+      "function": "Sequelize.log",
+      "line": 1281,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 22,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js",
+      "function": "Query._logQuery",
+      "line": 376,
+      "method": "_logQuery",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js",
+      "function": "Query.run",
+      "line": 39,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+2024-04-24 09:50:55 - 3561e2ea-d8f8-440f-b99d-783056cac9a9 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at /home/ditsdev152/Desktop/cab-booking/ride/src/config/database.ts:18:13
+    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:504:23)
+    at /home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:541:70 {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at /home/ditsdev152/Desktop/cab-booking/ride/src/config/database.ts:18:13\n    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:504:23)\n    at /home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:541:70",
+  "exception": true,
+  "date": "Wed Apr 24 2024 15:20:55 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 58816,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 273395712,
+      "heapTotal": 194367488,
+      "heapUsed": 167075896,
+      "external": 6970779,
+      "arrayBuffers": 4074429
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.75,
+      2.69,
+      2.5
+    ],
+    "uptime": 20996.07
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/src/config/database.ts",
+      "function": null,
+      "line": 18,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": "propagateAslWrapper",
+      "line": 504,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 70,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": null,
+      "line": 541,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2024-04-24 09:50:55 - cd960aa4-0295-486f-8e43-345ac677297c - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)
+    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)
+    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27) {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)\n    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)\n    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 15:20:55 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 58816,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 273395712,
+      "heapTotal": 194367488,
+      "heapUsed": 167316728,
+      "external": 6979580,
+      "arrayBuffers": 4083230
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.75,
+      2.69,
+      2.5
+    ],
+    "uptime": 20996.08
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js",
+      "function": "Sequelize.log",
+      "line": 1281,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 22,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js",
+      "function": "Query._logQuery",
+      "line": 376,
+      "method": "_logQuery",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js",
+      "function": "Query.run",
+      "line": 39,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+2024-04-24 09:50:55 - 242dfffe-67eb-4354-9ec5-a8ed7f339ec0 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at /home/ditsdev152/Desktop/cab-booking/ride/src/model/rideSchema.ts:84:17
+    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:504:23)
+    at /home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:541:70 {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at /home/ditsdev152/Desktop/cab-booking/ride/src/model/rideSchema.ts:84:17\n    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:504:23)\n    at /home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:541:70",
+  "exception": true,
+  "date": "Wed Apr 24 2024 15:20:55 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 58816,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 273526784,
+      "heapTotal": 194367488,
+      "heapUsed": 167598560,
+      "external": 6998034,
+      "arrayBuffers": 4101684
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.75,
+      2.69,
+      2.5
+    ],
+    "uptime": 20996.09
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/src/model/rideSchema.ts",
+      "function": null,
+      "line": 84,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": "propagateAslWrapper",
+      "line": 504,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 70,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": null,
+      "line": 541,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2024-04-24 09:50:59 - b1b2e5e2-3c65-4ab9-b313-4d8a6027fcff - error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle (node:net:1897:16)
+    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)
+    at listenInCluster (node:net:1945:12)
+    at Server.listen (node:net:2037:7)
+    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:113:20)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -98,
+    "syscall": "listen",
+    "address": "::",
+    "port": 4000
+  },
+  "stack": "Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle (node:net:1897:16)\n    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)\n    at listenInCluster (node:net:1945:12)\n    at Server.listen (node:net:2037:7)\n    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:113:20)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 15:20:59 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 58846,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 268103680,
+      "heapTotal": 186687488,
+      "heapUsed": 165737576,
+      "external": 6555072,
+      "arrayBuffers": 3661904
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.93,
+      2.72,
+      2.51
+    ],
+    "uptime": 20999.55
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle",
+      "line": 1897,
+      "method": "setupListenHandle",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": "Server._listen2",
+      "line": 97,
+      "method": "_listen2",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2037,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 113,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-24 10:53:38 - e4746a81-505c-4eb8-9521-c4831b5d8106 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at /home/ditsdev152/Desktop/cab-booking/ride/index.ts:95:13
+    at tryCatcher (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/standard-as-callback/built/utils.js:12:23)
+    at /home/ditsdev152/Desktop/cab-booking/ride/node_modules/standard-as-callback/built/index.js:22:53 {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at /home/ditsdev152/Desktop/cab-booking/ride/index.ts:95:13\n    at tryCatcher (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/standard-as-callback/built/utils.js:12:23)\n    at /home/ditsdev152/Desktop/cab-booking/ride/node_modules/standard-as-callback/built/index.js:22:53",
+  "exception": true,
+  "date": "Wed Apr 24 2024 16:23:38 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 61866,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 272711680,
+      "heapTotal": 189648896,
+      "heapUsed": 159385880,
+      "external": 6657200,
+      "arrayBuffers": 3762938
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.56,
+      2.43,
+      2.11
+    ],
+    "uptime": 24759.41
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 95,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/standard-as-callback/built/utils.js",
+      "function": "tryCatcher",
+      "line": 12,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 53,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/standard-as-callback/built/index.js",
+      "function": null,
+      "line": 22,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2024-04-24 10:53:38 - 074e9e37-0796-41f3-80b3-76cdec169fb3 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)
+    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)
+    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27) {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)\n    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)\n    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 16:23:38 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 61866,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 273235968,
+      "heapTotal": 190173184,
+      "heapUsed": 162653032,
+      "external": 6860630,
+      "arrayBuffers": 3964280
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.56,
+      2.43,
+      2.11
+    ],
+    "uptime": 24759.51
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js",
+      "function": "Sequelize.log",
+      "line": 1281,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 22,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js",
+      "function": "Query._logQuery",
+      "line": 376,
+      "method": "_logQuery",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js",
+      "function": "Query.run",
+      "line": 39,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+2024-04-24 10:53:38 - 73110d4e-47a3-4000-a52d-db9188ad24ab - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)
+    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)
+    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27) {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)\n    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)\n    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 16:23:38 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 61866,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 273367040,
+      "heapTotal": 190435328,
+      "heapUsed": 162907168,
+      "external": 6869821,
+      "arrayBuffers": 3973471
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.56,
+      2.43,
+      2.11
+    ],
+    "uptime": 24759.53
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js",
+      "function": "Sequelize.log",
+      "line": 1281,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 22,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js",
+      "function": "Query._logQuery",
+      "line": 376,
+      "method": "_logQuery",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js",
+      "function": "Query.run",
+      "line": 39,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+2024-04-24 10:53:39 - 3613d164-81f1-478a-ad5c-1f03d1848cfe - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)
+    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)
+    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27) {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)\n    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)\n    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 16:23:38 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 61866,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 273367040,
+      "heapTotal": 190435328,
+      "heapUsed": 163177016,
+      "external": 6879278,
+      "arrayBuffers": 3982928
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.56,
+      2.43,
+      2.11
+    ],
+    "uptime": 24759.54
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js",
+      "function": "Sequelize.log",
+      "line": 1281,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 22,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js",
+      "function": "Query._logQuery",
+      "line": 376,
+      "method": "_logQuery",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js",
+      "function": "Query.run",
+      "line": 39,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+2024-04-24 10:53:39 - f53e9dd6-9c9d-4ba5-8e6c-81079e502a21 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at /home/ditsdev152/Desktop/cab-booking/ride/src/model/rideSchema.ts:84:17
+    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:504:23)
+    at /home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:541:70 {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at /home/ditsdev152/Desktop/cab-booking/ride/src/model/rideSchema.ts:84:17\n    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:504:23)\n    at /home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:541:70",
+  "exception": true,
+  "date": "Wed Apr 24 2024 16:23:39 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 61866,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 273367040,
+      "heapTotal": 190435328,
+      "heapUsed": 163720416,
+      "external": 6897761,
+      "arrayBuffers": 4001411
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.56,
+      2.43,
+      2.11
+    ],
+    "uptime": 24759.58
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/src/model/rideSchema.ts",
+      "function": null,
+      "line": 84,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": "propagateAslWrapper",
+      "line": 504,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 70,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": null,
+      "line": 541,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2024-04-24 10:53:39 - ef58f0dd-04e2-4f1a-9f58-e9cb96f34df9 - error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle (node:net:1897:16)
+    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)
+    at listenInCluster (node:net:1945:12)
+    at Server.listen (node:net:2037:7)
+    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:113:20)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -98,
+    "syscall": "listen",
+    "address": "::",
+    "port": 4000
+  },
+  "stack": "Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle (node:net:1897:16)\n    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)\n    at listenInCluster (node:net:1945:12)\n    at Server.listen (node:net:2037:7)\n    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:113:20)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 16:23:39 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 61865,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 270839808,
+      "heapTotal": 189833216,
+      "heapUsed": 159025448,
+      "external": 6554794,
+      "arrayBuffers": 3661626
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.56,
+      2.43,
+      2.11
+    ],
+    "uptime": 24759.85
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle",
+      "line": 1897,
+      "method": "setupListenHandle",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": "Server._listen2",
+      "line": 97,
+      "method": "_listen2",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2037,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 113,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-24 10:53:39 - 73eec99d-a8b7-4e9a-a30b-2f86ac15efb4 - error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle (node:net:1897:16)
+    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)
+    at listenInCluster (node:net:1945:12)
+    at Server.listen (node:net:2037:7)
+    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:113:20)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -98,
+    "syscall": "listen",
+    "address": "::",
+    "port": 4000
+  },
+  "stack": "Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle (node:net:1897:16)\n    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)\n    at listenInCluster (node:net:1945:12)\n    at Server.listen (node:net:2037:7)\n    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:113:20)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 16:23:39 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 61883,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 271790080,
+      "heapTotal": 189046784,
+      "heapUsed": 161892496,
+      "external": 6555048,
+      "arrayBuffers": 3661880
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.51,
+      2.44,
+      2.12
+    ],
+    "uptime": 24760.18
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle",
+      "line": 1897,
+      "method": "setupListenHandle",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": "Server._listen2",
+      "line": 97,
+      "method": "_listen2",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2037,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 113,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-24 10:56:28 - e33fc29f-2519-473b-a0a5-38fbfef61c6b - error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle (node:net:1897:16)
+    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)
+    at listenInCluster (node:net:1945:12)
+    at Server.listen (node:net:2037:7)
+    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:113:20)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -98,
+    "syscall": "listen",
+    "address": "::",
+    "port": 4000
+  },
+  "stack": "Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle (node:net:1897:16)\n    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)\n    at listenInCluster (node:net:1945:12)\n    at Server.listen (node:net:2037:7)\n    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:113:20)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 16:26:28 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 62223,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 272936960,
+      "heapTotal": 189833216,
+      "heapUsed": 158370960,
+      "external": 6555864,
+      "arrayBuffers": 3661602
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.68,
+      2.8,
+      2.3
+    ],
+    "uptime": 24929.17
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle",
+      "line": 1897,
+      "method": "setupListenHandle",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": "Server._listen2",
+      "line": 97,
+      "method": "_listen2",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2037,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 113,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-24 10:56:28 - a50cf462-9d07-4908-a1a5-9a7aa7e0c7f5 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)
+    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)
+    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27) {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)\n    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)\n    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 16:26:28 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 62223,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 274116608,
+      "heapTotal": 190881792,
+      "heapUsed": 162745784,
+      "external": 6862033,
+      "arrayBuffers": 3965683
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.68,
+      2.8,
+      2.3
+    ],
+    "uptime": 24929.22
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js",
+      "function": "Sequelize.log",
+      "line": 1281,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 22,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js",
+      "function": "Query._logQuery",
+      "line": 376,
+      "method": "_logQuery",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js",
+      "function": "Query.run",
+      "line": 39,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+2024-04-24 10:56:28 - 52f957b6-3b3a-4a0f-8301-4fc83c837ae8 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)
+    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)
+    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27) {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)\n    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)\n    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 16:26:28 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 62223,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 274116608,
+      "heapTotal": 190881792,
+      "heapUsed": 162967112,
+      "external": 6871220,
+      "arrayBuffers": 3974870
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.68,
+      2.8,
+      2.3
+    ],
+    "uptime": 24929.23
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js",
+      "function": "Sequelize.log",
+      "line": 1281,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 22,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js",
+      "function": "Query._logQuery",
+      "line": 376,
+      "method": "_logQuery",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js",
+      "function": "Query.run",
+      "line": 39,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+2024-04-24 10:56:28 - 5fc4ad63-9e83-43b5-9e1e-6f5f09eaef30 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)
+    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)
+    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27) {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)\n    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)\n    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27)",
+  "exception": true,
+  "date": "Wed Apr 24 2024 16:26:28 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 62223,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 274247680,
+      "heapTotal": 190881792,
+      "heapUsed": 163218416,
+      "external": 6880487,
+      "arrayBuffers": 3984137
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.68,
+      2.8,
+      2.3
+    ],
+    "uptime": 24929.23
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js",
+      "function": "Sequelize.log",
+      "line": 1281,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 22,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js",
+      "function": "Query._logQuery",
+      "line": 376,
+      "method": "_logQuery",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js",
+      "function": "Query.run",
+      "line": 39,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+2024-04-24 10:56:28 - 058fa1c8-0fa8-4e28-ac02-db18a0839bbe - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at /home/ditsdev152/Desktop/cab-booking/ride/src/model/rideSchema.ts:84:17
+    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:504:23)
+    at /home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:541:70 {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at /home/ditsdev152/Desktop/cab-booking/ride/src/model/rideSchema.ts:84:17\n    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:504:23)\n    at /home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:541:70",
+  "exception": true,
+  "date": "Wed Apr 24 2024 16:26:28 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 62223,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 274247680,
+      "heapTotal": 191143936,
+      "heapUsed": 163534640,
+      "external": 6898939,
+      "arrayBuffers": 4002589
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.68,
+      2.8,
+      2.3
+    ],
+    "uptime": 24929.24
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/src/model/rideSchema.ts",
+      "function": null,
+      "line": 84,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": "propagateAslWrapper",
+      "line": 504,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 70,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": null,
+      "line": 541,
+      "method": null,
+      "native": false
+    }
+  ]
+}

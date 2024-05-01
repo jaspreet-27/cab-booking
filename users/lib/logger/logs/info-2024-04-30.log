@@ -1,0 +1,4667 @@
+2024-04-30 04:39:46 - dc6caf29-458a-4d06-a554-61da1b404f5b - error: uncaughtException: Cannot find module 'src/config/dataBase'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/config/dataBase'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/config/dataBase'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 10:09:46 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 12398,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 285700096,
+      "heapTotal": 204513280,
+      "heapUsed": 173765840,
+      "external": 6536974,
+      "arrayBuffers": 3655603
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.96,
+      2.32,
+      1.46
+    ],
+    "uptime": 3228.29
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 04:40:07 - 61f31ae4-5057-487e-b24f-49079f36b4bd - error: uncaughtException: Cannot find module 'src/config/dataBase'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/config/dataBase'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/config/dataBase'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 10:10:07 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 12574,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 286162944,
+      "heapTotal": 202678272,
+      "heapUsed": 175617016,
+      "external": 6536918,
+      "arrayBuffers": 3655539
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.36,
+      2.28,
+      1.47
+    ],
+    "uptime": 3249.42
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 04:40:14 - 9f031ace-6ff7-4fba-b835-e083e34f3b70 - error: uncaughtException: Cannot find module 'src/config/dataBase'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/config/dataBase'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/config/dataBase'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 10:10:14 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 12769,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 286359552,
+      "heapTotal": 203202560,
+      "heapUsed": 177604976,
+      "external": 6537060,
+      "arrayBuffers": 3655395
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.57,
+      2.34,
+      1.49
+    ],
+    "uptime": 3256.68
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 04:45:52 - b39be624-c908-4538-b6c9-2de4318b5ddc - error: uncaughtException: Cannot find module 'src/config/dataBase'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/config/dataBase'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/config/dataBase'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 10:15:52 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 6693,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 290467840,
+      "heapTotal": 200318976,
+      "heapUsed": 163404088,
+      "external": 4203382,
+      "arrayBuffers": 1322011
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.05,
+      1.1,
+      0.47
+    ],
+    "uptime": 264.45
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 04:46:28 - 99aa3cf7-43cf-45bf-bea8-52c7d31bafb8 - error: uncaughtException: Cannot find module 'src/config/dataBase'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/config/dataBase'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/config/dataBase'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 10:16:28 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 7146,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 284774400,
+      "heapTotal": 201891840,
+      "heapUsed": 175038304,
+      "external": 5375324,
+      "arrayBuffers": 2492851
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.9,
+      1.15,
+      0.52
+    ],
+    "uptime": 301.28
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 04:46:28 - bb072c07-ea30-4999-a06f-cea644edb731 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/sequelize.js:1281:15)
+    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/abstract/query.js:376:22)
+    at Query.run (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/mysql/query.js:39:27) {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/sequelize.js:1281:15)\n    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/abstract/query.js:376:22)\n    at Query.run (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/mysql/query.js:39:27)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 10:16:28 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 7146,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 285822976,
+      "heapTotal": 202416128,
+      "heapUsed": 179605648,
+      "external": 5691758,
+      "arrayBuffers": 2811890
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.9,
+      1.15,
+      0.52
+    ],
+    "uptime": 301.33
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/sequelize.js",
+      "function": "Sequelize.log",
+      "line": 1281,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 22,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/abstract/query.js",
+      "function": "Query._logQuery",
+      "line": 376,
+      "method": "_logQuery",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/mysql/query.js",
+      "function": "Query.run",
+      "line": 39,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+2024-04-30 04:46:28 - 34f7783f-ae9d-41a3-b150-e0593075bbd4 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at /home/ditsdev152/Desktop/cab-booking/users/src/config/dataBase.ts:23:13
+    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:504:23)
+    at /home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:541:70 {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at /home/ditsdev152/Desktop/cab-booking/users/src/config/dataBase.ts:23:13\n    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:504:23)\n    at /home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:541:70",
+  "exception": true,
+  "date": "Tue Apr 30 2024 10:16:28 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 7146,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 285822976,
+      "heapTotal": 202678272,
+      "heapUsed": 180128160,
+      "external": 5700963,
+      "arrayBuffers": 2821095
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.9,
+      1.15,
+      0.52
+    ],
+    "uptime": 301.34
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/src/config/dataBase.ts",
+      "function": null,
+      "line": 23,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js",
+      "function": "propagateAslWrapper",
+      "line": 504,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 70,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js",
+      "function": null,
+      "line": 541,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2024-04-30 04:46:28 - 17e491b2-717c-4a0e-a7e1-dca7a72bc2d6 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/sequelize.js:1281:15)
+    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/abstract/query.js:376:22)
+    at Query.run (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/mysql/query.js:39:27) {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/sequelize.js:1281:15)\n    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/abstract/query.js:376:22)\n    at Query.run (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/mysql/query.js:39:27)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 10:16:28 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 7146,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 285954048,
+      "heapTotal": 202678272,
+      "heapUsed": 180406296,
+      "external": 5709780,
+      "arrayBuffers": 2829912
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.9,
+      1.15,
+      0.52
+    ],
+    "uptime": 301.34
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/sequelize.js",
+      "function": "Sequelize.log",
+      "line": 1281,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 22,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/abstract/query.js",
+      "function": "Query._logQuery",
+      "line": 376,
+      "method": "_logQuery",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/mysql/query.js",
+      "function": "Query.run",
+      "line": 39,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+2024-04-30 04:46:29 - 4ba46383-1ba8-45b6-9e60-50d2ee83bcdb - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at /home/ditsdev152/Desktop/cab-booking/users/src/model/user/userSchema.ts:83:13
+    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:504:23)
+    at /home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:541:70 {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at /home/ditsdev152/Desktop/cab-booking/users/src/model/user/userSchema.ts:83:13\n    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:504:23)\n    at /home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:541:70",
+  "exception": true,
+  "date": "Tue Apr 30 2024 10:16:29 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 7146,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 291065856,
+      "heapTotal": 208445440,
+      "heapUsed": 175676016,
+      "external": 5680008,
+      "arrayBuffers": 2800140
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.9,
+      1.15,
+      0.52
+    ],
+    "uptime": 301.35
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/src/model/user/userSchema.ts",
+      "function": null,
+      "line": 83,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js",
+      "function": "propagateAslWrapper",
+      "line": 504,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 70,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js",
+      "function": null,
+      "line": 541,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2024-04-30 04:54:14 - d09828e0-a41f-4fde-b79a-5f9074a650c8 - error: uncaughtException: Cannot find module 'src/config/dataBase'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/config/dataBase'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/config/dataBase'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 10:24:14 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 8499,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 287322112,
+      "heapTotal": 203464704,
+      "heapUsed": 174914640,
+      "external": 6536710,
+      "arrayBuffers": 3655331
+    }
+  },
+  "os": {
+    "loadavg": [
+      0.88,
+      0.85,
+      0.61
+    ],
+    "uptime": 766.71
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 04:57:10 - 3163e4df-4082-49ce-8377-1c29aac49261 - error: uncaughtException: Cannot find module 'src/config/dataBase'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/config/dataBase'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/config/dataBase'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 10:27:10 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 10447,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 288555008,
+      "heapTotal": 204775424,
+      "heapUsed": 173294496,
+      "external": 6536998,
+      "arrayBuffers": 3655627
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.9,
+      1.36,
+      0.86
+    ],
+    "uptime": 942.79
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 05:49:21 - e2ee3ed0-2581-4281-a85b-a683a79f0c3e - error: uncaughtException: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/services/userService'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 11:19:21 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 20279,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 288858112,
+      "heapTotal": 206086144,
+      "heapUsed": 174745800,
+      "external": 6545182,
+      "arrayBuffers": 3663811
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.36,
+      3,
+      2.36
+    ],
+    "uptime": 4073.8
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 05:50:29 - 3e1c9a39-731c-4ce3-ad96-d378eda69923 - error: uncaughtException: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/services/userService'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 11:20:29 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 20732,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 283553792,
+      "heapTotal": 200843264,
+      "heapUsed": 178082496,
+      "external": 6546391,
+      "arrayBuffers": 3668640
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.3,
+      3.03,
+      2.41
+    ],
+    "uptime": 4142.24
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 05:50:57 - 04794550-13db-4667-b3fa-280600577e33 - error: uncaughtException: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/services/userService'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 11:20:57 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 20984,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 286142464,
+      "heapTotal": 204775424,
+      "heapUsed": 178769824,
+      "external": 6674013,
+      "arrayBuffers": 3792348
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.34,
+      3.06,
+      2.44
+    ],
+    "uptime": 4169.81
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 06:10:04 - bb427607-7560-4152-b1b6-c6f46a284fb1 - error: uncaughtException: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/services/userService'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 11:40:04 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 22808,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 285483008,
+      "heapTotal": 204251136,
+      "heapUsed": 179374296,
+      "external": 6598088,
+      "arrayBuffers": 3716423
+    }
+  },
+  "os": {
+    "loadavg": [
+      4.06,
+      3.23,
+      2.81
+    ],
+    "uptime": 5317.28
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 06:16:29 - 4414093b-b324-45a6-9c15-074687012f24 - error: uncaughtException: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/services/userService'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 11:46:29 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 23440,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 287744000,
+      "heapTotal": 205561856,
+      "heapUsed": 178947152,
+      "external": 6566656,
+      "arrayBuffers": 3685277
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.47,
+      3.15,
+      2.89
+    ],
+    "uptime": 5701.92
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 06:17:02 - 6daa713b-fd06-4558-ac3a-9d952ada97b1 - error: uncaughtException: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/services/userService'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 11:47:02 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 23748,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 286560256,
+      "heapTotal": 204251136,
+      "heapUsed": 174774752,
+      "external": 6537054,
+      "arrayBuffers": 3655675
+    }
+  },
+  "os": {
+    "loadavg": [
+      4.12,
+      3.33,
+      2.96
+    ],
+    "uptime": 5735.11
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:05:59 - 8fa0eaeb-92e0-431e-bd90-520d4233fbde - error: uncaughtException: Cannot find module 'src/model/user/userSchema'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/model/user/userSchema'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/model/user/userSchema'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:8:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 12:35:59 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 39918,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 288002048,
+      "heapTotal": 203988992,
+      "heapUsed": 172676816,
+      "external": 6545262,
+      "arrayBuffers": 3663891
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.9,
+      3.12,
+      3.2
+    ],
+    "uptime": 8672.1
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 8,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:12:04 - e783e8d4-e19a-48dd-b012-99a0b40c8da1 - error: uncaughtException: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/services/userService'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 12:42:04 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 43982,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 287436800,
+      "heapTotal": 202416128,
+      "heapUsed": 177125952,
+      "external": 6546517,
+      "arrayBuffers": 3663787
+    }
+  },
+  "os": {
+    "loadavg": [
+      4.57,
+      3.67,
+      3.4
+    ],
+    "uptime": 9036.5
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:12:33 - 792d9903-ae1d-4f4a-84c3-20f8a448dd7d - error: uncaughtException: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/services/userService'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 12:42:33 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 44480,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 284938240,
+      "heapTotal": 206962688,
+      "heapUsed": 177013688,
+      "external": 6535042,
+      "arrayBuffers": 3655643
+    }
+  },
+  "os": {
+    "loadavg": [
+      4.58,
+      3.75,
+      3.43
+    ],
+    "uptime": 9065.73
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:12:33 - 3ffa7691-3f06-4eaa-8228-060ce1d296cf - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/sequelize.js:1281:15)
+    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/abstract/query.js:376:22)
+    at Query.run (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/mysql/query.js:39:27) {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/sequelize.js:1281:15)\n    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/abstract/query.js:376:22)\n    at Query.run (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/mysql/query.js:39:27)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 12:42:33 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 44480,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 286248960,
+      "heapTotal": 207486976,
+      "heapUsed": 181712152,
+      "external": 6851589,
+      "arrayBuffers": 3974795
+    }
+  },
+  "os": {
+    "loadavg": [
+      4.58,
+      3.75,
+      3.43
+    ],
+    "uptime": 9065.76
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/sequelize.js",
+      "function": "Sequelize.log",
+      "line": 1281,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 22,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/abstract/query.js",
+      "function": "Query._logQuery",
+      "line": 376,
+      "method": "_logQuery",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/mysql/query.js",
+      "function": "Query.run",
+      "line": 39,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:12:33 - 96626aa7-5c11-457c-ae7b-1d5dbb845df1 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/sequelize.js:1281:15)
+    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/abstract/query.js:376:22)
+    at Query.run (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/mysql/query.js:39:27) {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/sequelize.js:1281:15)\n    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/abstract/query.js:376:22)\n    at Query.run (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/mysql/query.js:39:27)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 12:42:33 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 44480,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 286380032,
+      "heapTotal": 207486976,
+      "heapUsed": 181960624,
+      "external": 6860880,
+      "arrayBuffers": 3984086
+    }
+  },
+  "os": {
+    "loadavg": [
+      4.58,
+      3.75,
+      3.43
+    ],
+    "uptime": 9065.77
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/sequelize.js",
+      "function": "Sequelize.log",
+      "line": 1281,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 22,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/abstract/query.js",
+      "function": "Query._logQuery",
+      "line": 376,
+      "method": "_logQuery",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/mysql/query.js",
+      "function": "Query.run",
+      "line": 39,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:12:33 - 1f491929-969b-4c78-84a9-9a1fc9d0026a - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at /home/ditsdev152/Desktop/cab-booking/users/src/model/user/userSchema.ts:83:13
+    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:504:23)
+    at /home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:541:70 {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at /home/ditsdev152/Desktop/cab-booking/users/src/model/user/userSchema.ts:83:13\n    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:504:23)\n    at /home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:541:70",
+  "exception": true,
+  "date": "Tue Apr 30 2024 12:42:33 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 44480,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 286380032,
+      "heapTotal": 207486976,
+      "heapUsed": 182265864,
+      "external": 6871164,
+      "arrayBuffers": 3994370
+    }
+  },
+  "os": {
+    "loadavg": [
+      4.58,
+      3.75,
+      3.43
+    ],
+    "uptime": 9065.77
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/src/model/user/userSchema.ts",
+      "function": null,
+      "line": 83,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js",
+      "function": "propagateAslWrapper",
+      "line": 504,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 70,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js",
+      "function": null,
+      "line": 541,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:13:30 - 45eb0ef8-5fa8-48e6-af44-ade95c77f772 - error: uncaughtException: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/services/userService'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 12:43:30 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 45581,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 288108544,
+      "heapTotal": 202678272,
+      "heapUsed": 180887640,
+      "external": 6536966,
+      "arrayBuffers": 3660280
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.15,
+      3.5,
+      3.36
+    ],
+    "uptime": 9122.4
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:19:42 - 9a37bfb4-1d96-4893-a4fd-f2cb22c7e7c7 - error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle (node:net:1897:16)
+    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:97:23)
+    at listenInCluster (node:net:1945:12)
+    at Server.listen (node:net:2037:7)
+    at Function.listen (/home/ditsdev152/Desktop/cab-booking/users/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:55:5)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -98,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "stack": "Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle (node:net:1897:16)\n    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:97:23)\n    at listenInCluster (node:net:1945:12)\n    at Server.listen (node:net:2037:7)\n    at Function.listen (/home/ditsdev152/Desktop/cab-booking/users/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:55:5)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 12:49:42 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 47074,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 287064064,
+      "heapTotal": 204775424,
+      "heapUsed": 175117664,
+      "external": 6556487,
+      "arrayBuffers": 3655523
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.23,
+      2.61,
+      2.93
+    ],
+    "uptime": 9494.47
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle",
+      "line": 1897,
+      "method": "setupListenHandle",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js",
+      "function": "Server._listen2",
+      "line": 97,
+      "method": "_listen2",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2037,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/express/lib/application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 55,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:19:42 - 6bd5335b-340c-407b-b98d-e50670af6d8f - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/sequelize.js:1281:15)
+    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/abstract/query.js:376:22)
+    at Query.run (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/mysql/query.js:39:27) {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/sequelize.js:1281:15)\n    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/abstract/query.js:376:22)\n    at Query.run (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/mysql/query.js:39:27)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 12:49:42 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 47074,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 287981568,
+      "heapTotal": 205037568,
+      "heapUsed": 179662008,
+      "external": 6876957,
+      "arrayBuffers": 3978598
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.23,
+      2.61,
+      2.93
+    ],
+    "uptime": 9494.57
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/sequelize.js",
+      "function": "Sequelize.log",
+      "line": 1281,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 22,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/abstract/query.js",
+      "function": "Query._logQuery",
+      "line": 376,
+      "method": "_logQuery",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/mysql/query.js",
+      "function": "Query.run",
+      "line": 39,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:19:42 - 73ec3072-48db-40aa-951c-190b1bc71f3b - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at /home/ditsdev152/Desktop/cab-booking/users/src/config/dataBase.ts:23:13
+    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:504:23)
+    at /home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:541:70 {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at /home/ditsdev152/Desktop/cab-booking/users/src/config/dataBase.ts:23:13\n    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:504:23)\n    at /home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:541:70",
+  "exception": true,
+  "date": "Tue Apr 30 2024 12:49:42 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 47074,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 287981568,
+      "heapTotal": 205299712,
+      "heapUsed": 180157896,
+      "external": 6886168,
+      "arrayBuffers": 3987809
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.23,
+      2.61,
+      2.93
+    ],
+    "uptime": 9494.57
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/src/config/dataBase.ts",
+      "function": null,
+      "line": 23,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js",
+      "function": "propagateAslWrapper",
+      "line": 504,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 70,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js",
+      "function": null,
+      "line": 541,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:19:42 - a195806d-0f24-45eb-bdc0-e48c431b1798 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/sequelize.js:1281:15)
+    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/abstract/query.js:376:22)
+    at Query.run (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/mysql/query.js:39:27) {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/sequelize.js:1281:15)\n    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/abstract/query.js:376:22)\n    at Query.run (/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/mysql/query.js:39:27)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 12:49:42 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 47074,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 288112640,
+      "heapTotal": 205561856,
+      "heapUsed": 180468248,
+      "external": 6894991,
+      "arrayBuffers": 3996632
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.23,
+      2.61,
+      2.93
+    ],
+    "uptime": 9494.58
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/sequelize.js",
+      "function": "Sequelize.log",
+      "line": 1281,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 22,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/abstract/query.js",
+      "function": "Query._logQuery",
+      "line": 376,
+      "method": "_logQuery",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/sequelize/src/dialects/mysql/query.js",
+      "function": "Query.run",
+      "line": 39,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:19:42 - bff0b812-2e1b-4bf4-ae77-ae506abaa4f1 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at /home/ditsdev152/Desktop/cab-booking/users/src/model/user/userSchema.ts:83:13
+    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:504:23)
+    at /home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:541:70 {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at /home/ditsdev152/Desktop/cab-booking/users/src/model/user/userSchema.ts:83:13\n    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:504:23)\n    at /home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:541:70",
+  "exception": true,
+  "date": "Tue Apr 30 2024 12:49:42 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 47074,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 288112640,
+      "heapTotal": 205561856,
+      "heapUsed": 180774248,
+      "external": 6905275,
+      "arrayBuffers": 4006916
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.23,
+      2.61,
+      2.93
+    ],
+    "uptime": 9494.59
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/src/model/user/userSchema.ts",
+      "function": null,
+      "line": 83,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js",
+      "function": "propagateAslWrapper",
+      "line": 504,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 70,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js",
+      "function": null,
+      "line": 541,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:19:59 - 547ef40a-6985-4657-abf4-acd5cf7fd2cc - error: uncaughtException: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/services/userService'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 12:49:59 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 47268,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 288391168,
+      "heapTotal": 203988992,
+      "heapUsed": 173524096,
+      "external": 6536902,
+      "arrayBuffers": 3655531
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.29,
+      2.65,
+      2.94
+    ],
+    "uptime": 9511.7
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:20:25 - 716dec09-b294-4c0a-b189-312aa2060d88 - error: uncaughtException: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/services/userService'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 12:50:25 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 48043,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 286760960,
+      "heapTotal": 202678272,
+      "heapUsed": 175419712,
+      "external": 6536950,
+      "arrayBuffers": 3655571
+    }
+  },
+  "os": {
+    "loadavg": [
+      4.25,
+      2.93,
+      3.02
+    ],
+    "uptime": 9537.41
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:20:43 - 73db5e24-cb46-4d68-975a-65f4637f6803 - error: uncaughtException: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/services/userService'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 12:50:43 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 48406,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 285769728,
+      "heapTotal": 202940416,
+      "heapUsed": 175710592,
+      "external": 6537062,
+      "arrayBuffers": 3655683
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.91,
+      2.94,
+      3.02
+    ],
+    "uptime": 9555.66
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:21:52 - 289f27d8-6b63-40ad-af50-97995a6d644d - error: uncaughtException: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/services/userService'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 12:51:52 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 49237,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 289062912,
+      "heapTotal": 204251136,
+      "heapUsed": 175044024,
+      "external": 6536974,
+      "arrayBuffers": 3655595
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.97,
+      2.8,
+      2.96
+    ],
+    "uptime": 9624.92
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:21:59 - 305e6a76-8200-4023-8c0e-412ba9f6562e - error: uncaughtException: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/services/userService'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 12:51:59 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 49346,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 284266496,
+      "heapTotal": 200056832,
+      "heapUsed": 179368296,
+      "external": 6536998,
+      "arrayBuffers": 3660312
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.3,
+      2.87,
+      2.99
+    ],
+    "uptime": 9631.75
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:23:08 - 428d45c1-cce0-4760-98b9-d3222283ae09 - error: uncaughtException: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+Error: Cannot find module 'src/services/userService'
+Require stack:
+- /home/ditsdev152/Desktop/cab-booking/users/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ]
+  },
+  "stack": "Error: Cannot find module 'src/services/userService'\nRequire stack:\n- /home/ditsdev152/Desktop/cab-booking/users/index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._load (node:internal/modules/cjs/loader:984:27)\n    at Module.require (node:internal/modules/cjs/loader:1231:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/index.ts:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 12:53:08 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 49695,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/users/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 287490048,
+      "heapTotal": 203202560,
+      "heapUsed": 174900552,
+      "external": 6537014,
+      "arrayBuffers": 3655635
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.13,
+      2.86,
+      2.97
+    ],
+    "uptime": 9700.68
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1143,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename]",
+      "line": 811,
+      "method": "installedValue [as _resolveFilename]",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 984,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1231,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/index.ts",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}

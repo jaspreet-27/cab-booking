@@ -1,0 +1,592 @@
+2024-04-29 03:58:55 - 23786cee-4f1a-40fe-a899-10125746180b - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:50:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:50:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Mon Apr 29 2024 09:28:55 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 6269,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 261304320,
+      "heapTotal": 172482560,
+      "heapUsed": 148653944,
+      "external": 5696026,
+      "arrayBuffers": 2801835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0.62,
+      0.55,
+      0.3
+    ],
+    "uptime": 790.05
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 50,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}
+2024-04-29 03:58:55 - 3df14b20-fb8c-4fe0-b976-807da051d26a - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:50:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:50:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Mon Apr 29 2024 09:28:55 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 6269,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 261304320,
+      "heapTotal": 172482560,
+      "heapUsed": 148757296,
+      "external": 5696026,
+      "arrayBuffers": 2801835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0.62,
+      0.55,
+      0.3
+    ],
+    "uptime": 790.07
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 50,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}
+2024-04-29 11:01:23 - f5354924-f968-4e00-913e-f1a9e8793272 - error: Data truncated for column 'driverId' at row 1 {
+  "name": "SequelizeDatabaseError",
+  "parent": {
+    "code": "WARN_DATA_TRUNCATED",
+    "errno": 1265,
+    "sqlState": "01000",
+    "sqlMessage": "Data truncated for column 'driverId' at row 1",
+    "sql": "INSERT INTO `rides` (`id`,`from`,`to`,`time`,`driverId`,`price`,`status`,`date`,`createdAt`,`updatedAt`,`isDeleted`) VALUES (?,?,?,?,?,?,?,?,?,?,?);",
+    "parameters": [
+      "3e030419-f7b8-4d8b-aae5-705784b352ab",
+      "Starting Location",
+      "Destination",
+      "2024-04-30 12:00:00",
+      "69e7eafb-5a3f-45d5-ae81-c03c5853f49b",
+      125.99,
+      "isAvailable",
+      "2024-04-30 00:00:00",
+      "2024-04-29 11:01:23",
+      "2024-04-29 11:01:23",
+      false
+    ]
+  },
+  "original": {
+    "code": "WARN_DATA_TRUNCATED",
+    "errno": 1265,
+    "sqlState": "01000",
+    "sqlMessage": "Data truncated for column 'driverId' at row 1",
+    "sql": "INSERT INTO `rides` (`id`,`from`,`to`,`time`,`driverId`,`price`,`status`,`date`,`createdAt`,`updatedAt`,`isDeleted`) VALUES (?,?,?,?,?,?,?,?,?,?,?);",
+    "parameters": [
+      "3e030419-f7b8-4d8b-aae5-705784b352ab",
+      "Starting Location",
+      "Destination",
+      "2024-04-30 12:00:00",
+      "69e7eafb-5a3f-45d5-ae81-c03c5853f49b",
+      125.99,
+      "isAvailable",
+      "2024-04-30 00:00:00",
+      "2024-04-29 11:01:23",
+      "2024-04-29 11:01:23",
+      false
+    ]
+  },
+  "sql": "INSERT INTO `rides` (`id`,`from`,`to`,`time`,`driverId`,`price`,`status`,`date`,`createdAt`,`updatedAt`,`isDeleted`) VALUES (?,?,?,?,?,?,?,?,?,?,?);",
+  "parameters": [
+    "3e030419-f7b8-4d8b-aae5-705784b352ab",
+    "Starting Location",
+    "Destination",
+    "2024-04-30 12:00:00",
+    "69e7eafb-5a3f-45d5-ae81-c03c5853f49b",
+    125.99,
+    "isAvailable",
+    "2024-04-30 00:00:00",
+    "2024-04-29 11:01:23",
+    "2024-04-29 11:01:23",
+    false
+  ]
+}
+2024-04-29 11:01:23 - eb798f76-55e8-4948-993b-c76988a5aab6 - error: createRide rideController Error @ Error: 	Data truncated for column 'driverId' at row 1 
+2024-04-29 11:02:48 - f0c4fddb-28be-4e31-acb6-95a16f162f09 - error: Data truncated for column 'driverId' at row 1 {
+  "name": "SequelizeDatabaseError",
+  "parent": {
+    "code": "WARN_DATA_TRUNCATED",
+    "errno": 1265,
+    "sqlState": "01000",
+    "sqlMessage": "Data truncated for column 'driverId' at row 1",
+    "sql": "INSERT INTO `rides` (`id`,`from`,`to`,`time`,`driverId`,`price`,`status`,`date`,`createdAt`,`updatedAt`,`isDeleted`) VALUES (?,?,?,?,?,?,?,?,?,?,?);",
+    "parameters": [
+      "9ca8ef2a-ed59-434f-b90b-96f16db13821",
+      "Startingss Location",
+      "Destination",
+      "2024-04-30 12:00:00",
+      "69e7eafb-5a3f-45d5-ae81-c03c5853f49b",
+      125.99,
+      "isAvailable",
+      "2024-04-30 00:00:00",
+      "2024-04-29 11:02:46",
+      "2024-04-29 11:02:46",
+      false
+    ]
+  },
+  "original": {
+    "code": "WARN_DATA_TRUNCATED",
+    "errno": 1265,
+    "sqlState": "01000",
+    "sqlMessage": "Data truncated for column 'driverId' at row 1",
+    "sql": "INSERT INTO `rides` (`id`,`from`,`to`,`time`,`driverId`,`price`,`status`,`date`,`createdAt`,`updatedAt`,`isDeleted`) VALUES (?,?,?,?,?,?,?,?,?,?,?);",
+    "parameters": [
+      "9ca8ef2a-ed59-434f-b90b-96f16db13821",
+      "Startingss Location",
+      "Destination",
+      "2024-04-30 12:00:00",
+      "69e7eafb-5a3f-45d5-ae81-c03c5853f49b",
+      125.99,
+      "isAvailable",
+      "2024-04-30 00:00:00",
+      "2024-04-29 11:02:46",
+      "2024-04-29 11:02:46",
+      false
+    ]
+  },
+  "sql": "INSERT INTO `rides` (`id`,`from`,`to`,`time`,`driverId`,`price`,`status`,`date`,`createdAt`,`updatedAt`,`isDeleted`) VALUES (?,?,?,?,?,?,?,?,?,?,?);",
+  "parameters": [
+    "9ca8ef2a-ed59-434f-b90b-96f16db13821",
+    "Startingss Location",
+    "Destination",
+    "2024-04-30 12:00:00",
+    "69e7eafb-5a3f-45d5-ae81-c03c5853f49b",
+    125.99,
+    "isAvailable",
+    "2024-04-30 00:00:00",
+    "2024-04-29 11:02:46",
+    "2024-04-29 11:02:46",
+    false
+  ]
+}
+2024-04-29 11:02:50 - 717f67d5-fc7e-4675-90ac-0cfb1d2af8dd - error: createRide rideController Error @ Error: 	Data truncated for column 'driverId' at row 1 
+2024-04-29 11:11:43 - 70919364-c37b-4954-8f03-c9dcf95438e8 - error: Data truncated for column 'driverId' at row 1 {
+  "name": "SequelizeDatabaseError",
+  "parent": {
+    "code": "WARN_DATA_TRUNCATED",
+    "errno": 1265,
+    "sqlState": "01000",
+    "sqlMessage": "Data truncated for column 'driverId' at row 1",
+    "sql": "INSERT INTO `rides` (`id`,`from`,`to`,`time`,`driverId`,`price`,`status`,`date`,`createdAt`,`updatedAt`,`isDeleted`) VALUES (?,?,?,?,?,?,?,?,?,?,?);",
+    "parameters": [
+      "3bc5582e-fecb-4874-9f5a-9fd4b5edee5e",
+      "Startingss Location",
+      "Destination",
+      "2024-04-30 12:00:00",
+      "69e7eafb-5a3f-45d5-ae81-c03c5853f49b",
+      125.99,
+      "isAvailable",
+      "2024-04-30 00:00:00",
+      "2024-04-29 11:11:43",
+      "2024-04-29 11:11:43",
+      false
+    ]
+  },
+  "original": {
+    "code": "WARN_DATA_TRUNCATED",
+    "errno": 1265,
+    "sqlState": "01000",
+    "sqlMessage": "Data truncated for column 'driverId' at row 1",
+    "sql": "INSERT INTO `rides` (`id`,`from`,`to`,`time`,`driverId`,`price`,`status`,`date`,`createdAt`,`updatedAt`,`isDeleted`) VALUES (?,?,?,?,?,?,?,?,?,?,?);",
+    "parameters": [
+      "3bc5582e-fecb-4874-9f5a-9fd4b5edee5e",
+      "Startingss Location",
+      "Destination",
+      "2024-04-30 12:00:00",
+      "69e7eafb-5a3f-45d5-ae81-c03c5853f49b",
+      125.99,
+      "isAvailable",
+      "2024-04-30 00:00:00",
+      "2024-04-29 11:11:43",
+      "2024-04-29 11:11:43",
+      false
+    ]
+  },
+  "sql": "INSERT INTO `rides` (`id`,`from`,`to`,`time`,`driverId`,`price`,`status`,`date`,`createdAt`,`updatedAt`,`isDeleted`) VALUES (?,?,?,?,?,?,?,?,?,?,?);",
+  "parameters": [
+    "3bc5582e-fecb-4874-9f5a-9fd4b5edee5e",
+    "Startingss Location",
+    "Destination",
+    "2024-04-30 12:00:00",
+    "69e7eafb-5a3f-45d5-ae81-c03c5853f49b",
+    125.99,
+    "isAvailable",
+    "2024-04-30 00:00:00",
+    "2024-04-29 11:11:43",
+    "2024-04-29 11:11:43",
+    false
+  ]
+}
+2024-04-29 11:11:43 - 05f9f74f-cf95-405b-b2c0-2d1ac068fd03 - error: createRide rideController Error @ Error: 	Data truncated for column 'driverId' at row 1 
+2024-04-29 11:30:47 - eb090305-0a9b-4cc9-9d72-bc13259baf8c - error: Incorrect integer value: 'b597f90d-803b-46da-bf2a-e3cdb9591926' for column `Cab Booking`.`rides`.`driverId` at row 1 {
+  "name": "SequelizeDatabaseError",
+  "parent": {
+    "code": "ER_TRUNCATED_WRONG_VALUE_FOR_FIELD",
+    "errno": 1366,
+    "sqlState": "22007",
+    "sqlMessage": "Incorrect integer value: 'b597f90d-803b-46da-bf2a-e3cdb9591926' for column `Cab Booking`.`rides`.`driverId` at row 1",
+    "sql": "INSERT INTO `rides` (`id`,`from`,`to`,`time`,`driverId`,`price`,`status`,`date`,`createdAt`,`updatedAt`,`isDeleted`) VALUES (?,?,?,?,?,?,?,?,?,?,?);",
+    "parameters": [
+      "93a32a25-3922-4081-88c9-112947d0c20a",
+      "Startingss Location",
+      "Destination",
+      "2024-04-30 12:00:00",
+      "b597f90d-803b-46da-bf2a-e3cdb9591926",
+      125.99,
+      "isAvailable",
+      "2024-04-30 00:00:00",
+      "2024-04-29 11:30:47",
+      "2024-04-29 11:30:47",
+      false
+    ]
+  },
+  "original": {
+    "code": "ER_TRUNCATED_WRONG_VALUE_FOR_FIELD",
+    "errno": 1366,
+    "sqlState": "22007",
+    "sqlMessage": "Incorrect integer value: 'b597f90d-803b-46da-bf2a-e3cdb9591926' for column `Cab Booking`.`rides`.`driverId` at row 1",
+    "sql": "INSERT INTO `rides` (`id`,`from`,`to`,`time`,`driverId`,`price`,`status`,`date`,`createdAt`,`updatedAt`,`isDeleted`) VALUES (?,?,?,?,?,?,?,?,?,?,?);",
+    "parameters": [
+      "93a32a25-3922-4081-88c9-112947d0c20a",
+      "Startingss Location",
+      "Destination",
+      "2024-04-30 12:00:00",
+      "b597f90d-803b-46da-bf2a-e3cdb9591926",
+      125.99,
+      "isAvailable",
+      "2024-04-30 00:00:00",
+      "2024-04-29 11:30:47",
+      "2024-04-29 11:30:47",
+      false
+    ]
+  },
+  "sql": "INSERT INTO `rides` (`id`,`from`,`to`,`time`,`driverId`,`price`,`status`,`date`,`createdAt`,`updatedAt`,`isDeleted`) VALUES (?,?,?,?,?,?,?,?,?,?,?);",
+  "parameters": [
+    "93a32a25-3922-4081-88c9-112947d0c20a",
+    "Startingss Location",
+    "Destination",
+    "2024-04-30 12:00:00",
+    "b597f90d-803b-46da-bf2a-e3cdb9591926",
+    125.99,
+    "isAvailable",
+    "2024-04-30 00:00:00",
+    "2024-04-29 11:30:47",
+    "2024-04-29 11:30:47",
+    false
+  ]
+}
+2024-04-29 11:30:47 - 3478e59e-ccb5-439d-8820-f35f93116ba8 - error: createRide rideController Error @ Error: 	Incorrect integer value: 'b597f90d-803b-46da-bf2a-e3cdb9591926' for column `Cab Booking`.`rides`.`driverId` at row 1 
+2024-04-29 11:32:00 - 809636d9-5095-4c91-a581-d81e2c9173d3 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:50:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:50:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Mon Apr 29 2024 17:02:00 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 99080,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 231014400,
+      "heapTotal": 152236032,
+      "heapUsed": 148909872,
+      "external": 6749680,
+      "arrayBuffers": 3856948
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.15,
+      1.01,
+      0.93
+    ],
+    "uptime": 27974.52
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 50,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}
+2024-04-29 11:32:00 - 3de43821-8d34-401c-945e-1d6aef68a2c9 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:50:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:50:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Mon Apr 29 2024 17:02:00 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 99080,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 231014400,
+      "heapTotal": 152236032,
+      "heapUsed": 149002504,
+      "external": 6749680,
+      "arrayBuffers": 3856948
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.15,
+      1.01,
+      0.93
+    ],
+    "uptime": 27974.56
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 50,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}
+2024-04-29 11:32:02 - aa5bb2a6-632c-4504-b07d-b179ea822a70 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:50:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:50:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Mon Apr 29 2024 17:02:02 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 99080,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 231538688,
+      "heapTotal": 153546752,
+      "heapUsed": 148669112,
+      "external": 6757872,
+      "arrayBuffers": 3856764
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.15,
+      1.01,
+      0.93
+    ],
+    "uptime": 27977.1
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 50,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}

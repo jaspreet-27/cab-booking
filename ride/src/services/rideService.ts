@@ -1,50 +1,197 @@
-import logger from '../utils/logger/logger'
-import rideModel from '../model/rideSchema'
-import { Ride } from '../utils/interfaces/rideInterface'
-import userModel from "../../../users/src/model/user/userSchema"
+import logger from '../utils/logger/logger';
+import rideModel from '../model/rideSchema';
+import { Ride } from '../utils/interfaces/rideInterface';
+import Redis from 'ioredis';
+const publisher = new Redis();
+const subscriber = new Redis();
 
+// async function createRide(body: Ride) {
+//     try {
+//         const ride = await rideModel.ride.findByPk(body.id);
+//         console.log(ride,'2')
+//         if (ride) {
+//             return 'rideAlreadyExist';
+//         } else {
+//             // Publish user ID
+//             async function publishUserId(userData) {
+//                 await publisher.publish('rides_channel', JSON.stringify(userData));
+//                 console.log(userData,'3')
+//             }
+            
+//             // Publish user ID and wait for response
+//             await publishUserId(body.driverId);
+//             subscriber.subscribe('users_channel');
+//             // subscriber.subscribe('')
 
+//             // Handling user-related data
+//             // subscriber.on('message', (channel, message) => {
+//             //     console.log(`Received user-related data from ${channel}:`, JSON.parse(message));
+//             //     // Process the received user-related data as needed
+//             // });
+//             subscriber.on('message', async (channel, message) => {
+//                 console.log(`Received user-related data from ${channel}:`, JSON.parse(message));
+//                 // Process the received user-related data as needed
+//                 const userData = JSON.parse(message);
+//                         if (userData.id === body.driverId) {
+//                             console.log('User found');
 
+//                             await rideModel.ride.create(body);
+                           
+//                         } else {
+//                             console.log('User not found');
+//                             console.log('kitty not found')
+//                         }
+//             //
+//             });
+//             //
+//             // Return "yes" if user ID is published, "no" otherwise
+//             const response = await new Promise((resolve, reject) => {
+//                 subscriber.once('message', (channel, message) => {
+//                     if (channel === 'users_channel') {
+//                         const userData = JSON.parse(message);
+//                         console.log(userData , "userData.....")
+//                         console.log(body.driverId , "body.driverId.....")
+//                         if (userData.id === body.driverId) {
+//                             console.log('User found');
+//                             resolve('yes');
+//                         } else {
+//                             console.log('User not found');
+//                             console.log('kitty not found');
+//                             resolve('no');
+//                         }
+//                     }
+//                 });
+//             });
+//             // If user is found, create the ride entry
+//             return response;
+//             // if (response === 'yes') {
+//             //     console.log('srdtfbhnkm');
+                
+//             // } else {
+//             //     return 'userNotFound';
+//             //     //response
+//             // }
+//         }
+//     } catch (err) {
 
+//         logger.error(err);
+//         throw new Error(err.message);
+//     }
+// }
 
-// *****************************Create user service*******************************
 
 async function createRide(body: Ride) {
-  try {
-    const ride = await rideModel.ride.findByPk(body.id)
-      // where: { id: body.id, isDeleted: false },
-    
-    // const driver = await userModel.user.findByPk(body.driverId)
-    //   if(driver)
-    //     console.log(driver)
-      
-  
+    try {
+        // Check if the ride already exists
+        const ride = await rideModel.ride.findByPk(body.id);
+        if (ride) {
+            return 'rideAlreadyExist';
+        } else {
+            // Subscribe to users channel to receive responses
+            subscriber.subscribe('users_channel');
 
-    if (ride) {
-    return 'rideAlreadyExist'
-  } else {
-    return await rideModel.ride.create(body)
-  }}
-catch (err) {
-  logger.error(err)
-  throw new Error(err.message)
-}}
+            // Publish user ID
+            async function publishUserId(userData) {
+                await publisher.publish('rides_channel', JSON.stringify(userData));
+                console.log(userData, 'User ID published');
+            }
 
+            // Publish user ID and wait for response
+            await publishUserId(body.driverId);
+
+            // Wait for response about user
+            const response = await new Promise((resolve, reject) => {
+                subscriber.once('message', (channel, message) => {
+                    if (channel === 'users_channel') {
+                        const userData = JSON.parse(message);
+                        console.log(userData, 'Received user data');
+                        if (userData.id === body.driverId) {
+                            console.log('User found');
+                            resolve('yes');
+                        } else {
+                            console.log('User not found');
+                            resolve('no');
+                        }
+                    }
+                });
+            });
+
+            // If user is found, create the ride entry
+            if (response === 'yes') {
+                console.log(body , 'Creating ride entry...');
+                await rideModel.ride.create(body);
+                return 'rideCreated';
+            } else {
+                console.log('User not found.');
+                return 'userNotFound';
+            }
+        }
+    } catch (err) {
+        logger.error(err);
+        throw new Error(err.message);
+    }
+}
+
+
+// async function createRide(body: Ride) {
+//     try {
+//         // Check if the ride already exists
+//         const existingRide = await rideModel.ride.findByPk(body.id);
+//         if (existingRide) {
+//             return 'rideAlreadyExist';
+//         } else {
+//             // Publish driver ID
+//             await publisher.publish('rides_channel', JSON.stringify(body.driverId));
+
+//             // Subscribe to users channel to receive responses
+//             subscriber.subscribe('users_channel');
+
+//             // Wait for response about user
+//             const response = await new Promise((resolve, reject) => {
+//                 subscriber.once('message', (channel, message) => {
+//                     if (channel === 'users_channel') {
+//                         const userData = JSON.parse(message);
+//                         if (userData === body.driverId) {
+//                             console.log('User found');
+//                             resolve('yes');
+//                         } else {
+//                             console.log('User not found');
+//                             resolve('no');
+//                         }
+//                     }
+//                 });
+//             });
+
+//             // If user is found, create the ride entry
+//             if (response === 'yes') {
+//                 console.log('User found. Creating ride entry...');
+//                 return await rideModel.ride.create(body);
+//             } else {
+//                 console.log('User not found.');
+//                 return 'userNotFound';
+//             }
+//         }
+//     } catch (err) {
+//         logger.error(err);
+//         throw new Error(err.message);
+//     }
+// }
+                                                                                        
 
 // // *****************************Get user service***********************************
-async function findRide(data) {
-  try {
-    return await rideModel.ride.findAll({
-      where: { isDeleted: false },
-      attributes: ['id', 'from', 'to', 'driverId', 'time', 'date', 'status', 'price'],
-      offset: data.page ? (parseInt(data.page) - 1) * parseInt(data.limit) : 0,
-      limit: data.limit ? parseInt(data.limit) : 5,
-    })
-  } catch (err) {
-    logger.error(err)
-    throw new Error(err.message)
-  }
-}
+// async function findRide(data) {
+//   try {
+//     return await rideModel.ride.findAll({
+//       where: { isDeleted: false },
+//       attributes: ['id', 'from', 'to', 'driverId', 'time', 'date', 'status', 'price'],
+//       offset: data.page ? (parseInt(data.page) - 1) * parseInt(data.limit) : 0,
+//       limit: data.limit ? parseInt(data.limit) : 5,
+//     })
+//   } catch (err) {
+//     logger.error(err)
+//     throw new Error(err.message)
+//   }
+// }
 
 // //****************************** get user by id service ***********************************
 // async function getUserById(params:UserGetAttribute) {
@@ -173,4 +320,4 @@ async function findRide(data) {
 //   }
 // }
 
-export default { createRide, findRide }
+export default { createRide }

@@ -11,8 +11,7 @@ const fileFormat = format.combine(
   format.printf((info: any) => {
     let log = '';
     try {
-      const logId =
-        namespace && namespace.get('logId') ? namespace.get('logId') : uuidv4();
+      const logId = namespace && namespace.get('logId') ? namespace.get('logId') : uuidv4();
       const { timestamp, level, message, ...args } = info;
       const ts = timestamp.slice(0, 19).replace('T', ' ');
       log = `${ts} - ${logId} - ${level}: ${message ? message.trim() : ''} ${Object.keys(args).length ? JSON.stringify(args, null, 2) : ''}`;
@@ -60,8 +59,7 @@ const consoleFormat = format.combine(
   format.printf((info: any) => {
     let log = '';
     try {
-      const logId =
-        namespace && namespace.get('logId') ? namespace.get('logId') : uuidv4();
+      const logId = namespace && namespace.get('logId') ? namespace.get('logId') : uuidv4();
       const { timestamp, level, message, ...args } = info;
       const ts = timestamp.slice(0, 19).replace('T', ' ');
       log = `${ts} - ${logId} - ${level}: ${message ? message.trim() : ''} ${Object.keys(args).length ? JSON.stringify(args, null, 2) : ''}`;

@@ -9,7 +9,6 @@ import logger from '../utils/logger/logger'
 async function createRide(req: Request, res: Response) {
   try {
     const data = await rideService.createRide(req.body)
-
     if (data == 'rideAlreadyExist') {
       res
         .status(statusCode.success)
@@ -40,27 +39,27 @@ async function createRide(req: Request, res: Response) {
 }
 
 // // *********************************get user controller********************************************
-async function getRides(req: Request, res: Response) {
-  try {
-    const data = await rideService.findRide(req.query)
-    if (data) {
-      res
-        .status(statusCode.success)
-        .json(successResponse(statusCode.success, data, message.fetch('Ride')))
-    }
-  } catch (err) {
-    logger.error(message.errorLog('getRides', 'rideController', err))
-    res
-      .status(statusCode.badRequest)
-      .json(
-        failResponse(
-          statusCode.badRequest,
-          err.message,
-          message.somethingWrong,
-        ),
-      )
-  }
-}
+// async function getRides(req: Request, res: Response) {
+//   try {
+//     const data = await rideService.findRide(req.query)
+//     if (data) {
+//       res
+//         .status(statusCode.success)
+//         .json(successResponse(statusCode.success, data, message.fetch('Ride')))
+//     }
+//   } catch (err) {
+//     logger.error(message.errorLog('getRides', 'rideController', err))
+//     res
+//       .status(statusCode.badRequest)
+//       .json(
+//         failResponse(
+//           statusCode.badRequest,
+//           err.message,
+//           message.somethingWrong,
+//         ),
+//       )
+//   }
+// }
 
 // // *********************************get user by Id controller****************************************
 // async function getUser(req: Request, res: Response) {
@@ -147,6 +146,6 @@ async function getRides(req: Request, res: Response) {
 
 
 export default {
- createRide,getRides
+ createRide
 }
 

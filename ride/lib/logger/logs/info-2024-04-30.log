@@ -1,0 +1,2754 @@
+2024-04-30 04:28:12 - bc2d2af4-40fb-4e9f-967f-ffc71d270060 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:53:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)
+    at Signal.callbackTrampoline (node:internal/async_hooks:130:17) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:53:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)\n    at Signal.callbackTrampoline (node:internal/async_hooks:130:17)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 09:58:12 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 7058,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 269389824,
+      "heapTotal": 188076032,
+      "heapUsed": 160714056,
+      "external": 5504618,
+      "arrayBuffers": 2609441
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.7,
+      1.39,
+      0.81
+    ],
+    "uptime": 2534.65
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 53,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "node:internal/async_hooks",
+      "function": "Signal.callbackTrampoline",
+      "line": 130,
+      "method": "callbackTrampoline",
+      "native": false
+    }
+  ]
+}
+2024-04-30 04:28:12 - 4ec7e275-fbe3-4e59-a264-97708f409933 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:53:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)
+    at Signal.callbackTrampoline (node:internal/async_hooks:130:17) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:53:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)\n    at Signal.callbackTrampoline (node:internal/async_hooks:130:17)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 09:58:12 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 7058,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 269389824,
+      "heapTotal": 188338176,
+      "heapUsed": 161171696,
+      "external": 5514922,
+      "arrayBuffers": 2617657
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.7,
+      1.39,
+      0.81
+    ],
+    "uptime": 2534.67
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 53,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "node:internal/async_hooks",
+      "function": "Signal.callbackTrampoline",
+      "line": 130,
+      "method": "callbackTrampoline",
+      "native": false
+    }
+  ]
+}
+2024-04-30 04:28:23 - c4fa2f5a-e312-4abe-86c5-16536bd29f7d - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:53:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)
+    at Signal.callbackTrampoline (node:internal/async_hooks:130:17) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:53:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)\n    at Signal.callbackTrampoline (node:internal/async_hooks:130:17)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 09:58:23 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 7239,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 267870208,
+      "heapTotal": 187289600,
+      "heapUsed": 160796760,
+      "external": 5504826,
+      "arrayBuffers": 2609649
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.91,
+      1.44,
+      0.83
+    ],
+    "uptime": 2545.41
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 53,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "node:internal/async_hooks",
+      "function": "Signal.callbackTrampoline",
+      "line": 130,
+      "method": "callbackTrampoline",
+      "native": false
+    }
+  ]
+}
+2024-04-30 04:28:23 - ebc29d52-ec88-4d84-a187-565b7e8bfbc6 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:53:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)
+    at Signal.callbackTrampoline (node:internal/async_hooks:130:17) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:53:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)\n    at Signal.callbackTrampoline (node:internal/async_hooks:130:17)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 09:58:23 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 7239,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 267870208,
+      "heapTotal": 187289600,
+      "heapUsed": 160938560,
+      "external": 5515130,
+      "arrayBuffers": 2617865
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.91,
+      1.44,
+      0.83
+    ],
+    "uptime": 2545.43
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 53,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "node:internal/async_hooks",
+      "function": "Signal.callbackTrampoline",
+      "line": 130,
+      "method": "callbackTrampoline",
+      "native": false
+    }
+  ]
+}
+2024-04-30 04:34:11 - 39d60789-5436-422a-8602-28570473a9fe - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:53:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)
+    at Signal.callbackTrampoline (node:internal/async_hooks:130:17) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:53:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)\n    at Signal.callbackTrampoline (node:internal/async_hooks:130:17)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 10:04:11 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 7767,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 228814848,
+      "heapTotal": 148566016,
+      "heapUsed": 145527568,
+      "external": 5378465,
+      "arrayBuffers": 2484747
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.19,
+      1.3,
+      0.96
+    ],
+    "uptime": 2893.13
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 53,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "node:internal/async_hooks",
+      "function": "Signal.callbackTrampoline",
+      "line": 130,
+      "method": "callbackTrampoline",
+      "native": false
+    }
+  ]
+}
+2024-04-30 04:34:11 - e2435c80-ba9e-4371-a9bc-227c300023f2 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:53:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)
+    at Signal.callbackTrampoline (node:internal/async_hooks:130:17) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:53:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)\n    at Signal.callbackTrampoline (node:internal/async_hooks:130:17)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 10:04:11 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 7767,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 229208064,
+      "heapTotal": 149614592,
+      "heapUsed": 144759952,
+      "external": 5388769,
+      "arrayBuffers": 2492963
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.19,
+      1.3,
+      0.96
+    ],
+    "uptime": 2893.15
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 53,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "node:internal/async_hooks",
+      "function": "Signal.callbackTrampoline",
+      "line": 130,
+      "method": "callbackTrampoline",
+      "native": false
+    }
+  ]
+}
+2024-04-30 04:34:12 - c4a1147f-eefb-49cd-b5f5-d1e7e4d08d96 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:53:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)
+    at Signal.callbackTrampoline (node:internal/async_hooks:130:17) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:53:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)\n    at Signal.callbackTrampoline (node:internal/async_hooks:130:17)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 10:04:12 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 7767,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 229339136,
+      "heapTotal": 149614592,
+      "heapUsed": 144881888,
+      "external": 5396961,
+      "arrayBuffers": 2501155
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.19,
+      1.3,
+      0.96
+    ],
+    "uptime": 2893.74
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 53,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "node:internal/async_hooks",
+      "function": "Signal.callbackTrampoline",
+      "line": 130,
+      "method": "callbackTrampoline",
+      "native": false
+    }
+  ]
+}
+2024-04-30 05:08:19 - 0b1ae689-b793-41fb-b14b-50033b4575ec - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:56:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)
+    at Signal.callbackTrampoline (node:internal/async_hooks:130:17) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:56:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)\n    at Signal.callbackTrampoline (node:internal/async_hooks:130:17)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 10:38:19 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 11976,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 232824832,
+      "heapTotal": 150401024,
+      "heapUsed": 146801824,
+      "external": 6541113,
+      "arrayBuffers": 3647395
+    }
+  },
+  "os": {
+    "loadavg": [
+      0.82,
+      1.44,
+      1.26
+    ],
+    "uptime": 1611.51
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 56,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "node:internal/async_hooks",
+      "function": "Signal.callbackTrampoline",
+      "line": 130,
+      "method": "callbackTrampoline",
+      "native": false
+    }
+  ]
+}
+2024-04-30 05:08:19 - aded71a2-5c42-4796-960d-edeb65fbe2f9 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:56:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)
+    at Signal.callbackTrampoline (node:internal/async_hooks:130:17) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:56:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)\n    at Signal.callbackTrampoline (node:internal/async_hooks:130:17)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 10:38:19 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 11976,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 232955904,
+      "heapTotal": 150401024,
+      "heapUsed": 146948848,
+      "external": 6551417,
+      "arrayBuffers": 3655611
+    }
+  },
+  "os": {
+    "loadavg": [
+      0.82,
+      1.44,
+      1.26
+    ],
+    "uptime": 1611.53
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 56,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "node:internal/async_hooks",
+      "function": "Signal.callbackTrampoline",
+      "line": 130,
+      "method": "callbackTrampoline",
+      "native": false
+    }
+  ]
+}
+2024-04-30 05:49:54 - ca508fa5-fc9a-4576-9a9b-444f4abf0153 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:56:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)
+    at Signal.callbackTrampoline (node:internal/async_hooks:130:17) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:56:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)\n    at Signal.callbackTrampoline (node:internal/async_hooks:130:17)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 11:19:54 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 13192,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 236400640,
+      "heapTotal": 154779648,
+      "heapUsed": 150214648,
+      "external": 6541121,
+      "arrayBuffers": 3647403
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.01,
+      2.95,
+      2.36
+    ],
+    "uptime": 4106.67
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 56,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "node:internal/async_hooks",
+      "function": "Signal.callbackTrampoline",
+      "line": 130,
+      "method": "callbackTrampoline",
+      "native": false
+    }
+  ]
+}
+2024-04-30 05:49:54 - 3150c94b-927d-4559-b5fb-bd341503a490 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:56:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)
+    at Signal.callbackTrampoline (node:internal/async_hooks:130:17) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:56:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)\n    at Signal.callbackTrampoline (node:internal/async_hooks:130:17)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 11:19:54 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 13192,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 236662784,
+      "heapTotal": 154779648,
+      "heapUsed": 150381968,
+      "external": 6551425,
+      "arrayBuffers": 3655619
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.01,
+      2.95,
+      2.36
+    ],
+    "uptime": 4106.75
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 56,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "node:internal/async_hooks",
+      "function": "Signal.callbackTrampoline",
+      "line": 130,
+      "method": "callbackTrampoline",
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:13:53 - 1def0d56-db0e-49ae-9401-5e5b541bf885 - error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle (node:net:1897:16)
+    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)
+    at listenInCluster (node:net:1945:12)
+    at Server.listen (node:net:2037:7)
+    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:48:20)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -98,
+    "syscall": "listen",
+    "address": "::",
+    "port": 4000
+  },
+  "stack": "Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle (node:net:1897:16)\n    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)\n    at listenInCluster (node:net:1945:12)\n    at Server.listen (node:net:2037:7)\n    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:48:20)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 12:43:53 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 45917,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 273113088,
+      "heapTotal": 191143936,
+      "heapUsed": 164710456,
+      "external": 6550836,
+      "arrayBuffers": 3655659
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.81,
+      3.39,
+      3.33
+    ],
+    "uptime": 9145.93
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle",
+      "line": 1897,
+      "method": "setupListenHandle",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": "Server._listen2",
+      "line": 97,
+      "method": "_listen2",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2037,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 48,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:19:00 - aeec7761-60cc-4d2a-aa9b-1b0d0ccf5029 - error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle (node:net:1897:16)
+    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)
+    at listenInCluster (node:net:1945:12)
+    at Server.listen (node:net:2037:7)
+    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:44:20)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -98,
+    "syscall": "listen",
+    "address": "::",
+    "port": 4000
+  },
+  "stack": "Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle (node:net:1897:16)\n    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)\n    at listenInCluster (node:net:1945:12)\n    at Server.listen (node:net:2037:7)\n    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:44:20)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 12:49:00 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 46658,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 272125952,
+      "heapTotal": 189308928,
+      "heapUsed": 167172040,
+      "external": 6547722,
+      "arrayBuffers": 3655619
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.18,
+      2.51,
+      2.91
+    ],
+    "uptime": 9453.08
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle",
+      "line": 1897,
+      "method": "setupListenHandle",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": "Server._listen2",
+      "line": 97,
+      "method": "_listen2",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2037,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 44,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:19:11 - 1ed8bda4-c539-441e-a3ed-2ae75a80046f - error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle (node:net:1897:16)
+    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)
+    at listenInCluster (node:net:1945:12)
+    at Server.listen (node:net:2037:7)
+    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:44:20)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -98,
+    "syscall": "listen",
+    "address": "::",
+    "port": 4000
+  },
+  "stack": "Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle (node:net:1897:16)\n    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)\n    at listenInCluster (node:net:1945:12)\n    at Server.listen (node:net:2037:7)\n    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:44:20)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 12:49:11 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 46885,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 270254080,
+      "heapTotal": 189571072,
+      "heapUsed": 164116896,
+      "external": 6547674,
+      "arrayBuffers": 3655571
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.54,
+      2.6,
+      2.94
+    ],
+    "uptime": 9464.28
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle",
+      "line": 1897,
+      "method": "setupListenHandle",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": "Server._listen2",
+      "line": 97,
+      "method": "_listen2",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2037,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 44,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:44:56 - d2b5898f-f909-4efb-a363-aa9d43309693 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:52:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)
+    at Signal.callbackTrampoline (node:internal/async_hooks:130:17) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:52:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)\n    at Signal.callbackTrampoline (node:internal/async_hooks:130:17)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 13:14:56 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 46875,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 235651072,
+      "heapTotal": 153022464,
+      "heapUsed": 149388928,
+      "external": 6541741,
+      "arrayBuffers": 3648023
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.44,
+      2.31,
+      2.56
+    ],
+    "uptime": 11008.72
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 52,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "node:internal/async_hooks",
+      "function": "Signal.callbackTrampoline",
+      "line": 130,
+      "method": "callbackTrampoline",
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:44:56 - c042b3de-5225-4db0-900a-c3627ed14acc - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:52:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)
+    at Signal.callbackTrampoline (node:internal/async_hooks:130:17) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:52:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)\n    at Signal.callbackTrampoline (node:internal/async_hooks:130:17)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 13:14:56 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 46875,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 235913216,
+      "heapTotal": 153022464,
+      "heapUsed": 149535064,
+      "external": 6552045,
+      "arrayBuffers": 3656239
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.44,
+      2.31,
+      2.56
+    ],
+    "uptime": 11008.74
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 52,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "node:internal/async_hooks",
+      "function": "Signal.callbackTrampoline",
+      "line": 130,
+      "method": "callbackTrampoline",
+      "native": false
+    }
+  ]
+}
+2024-04-30 07:44:58 - 96e6e795-e9f3-4807-884d-67d036e4ad4e - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:52:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)
+    at Signal.callbackTrampoline (node:internal/async_hooks:130:17) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:52:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)\n    at Signal.callbackTrampoline (node:internal/async_hooks:130:17)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 13:14:58 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 46875,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 235425792,
+      "heapTotal": 153022464,
+      "heapUsed": 149027976,
+      "external": 6560237,
+      "arrayBuffers": 3655562
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.57,
+      2.34,
+      2.57
+    ],
+    "uptime": 11010.95
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 52,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "node:internal/async_hooks",
+      "function": "Signal.callbackTrampoline",
+      "line": 130,
+      "method": "callbackTrampoline",
+      "native": false
+    }
+  ]
+}
+2024-04-30 09:21:11 - 4b33457f-903a-463b-9ff5-c492aaf743d1 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:52:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:52:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 14:51:11 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 67970,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 231170048,
+      "heapTotal": 148828160,
+      "heapUsed": 145702264,
+      "external": 6538712,
+      "arrayBuffers": 3648068
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.18,
+      3.14,
+      2.85
+    ],
+    "uptime": 16783.75
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 52,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 09:21:11 - be1d084e-162c-4b49-a3ec-4941adede7ba - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:52:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:52:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 14:51:11 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 67970,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 231694336,
+      "heapTotal": 149876736,
+      "heapUsed": 145190072,
+      "external": 6549016,
+      "arrayBuffers": 3655603
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.18,
+      3.14,
+      2.85
+    ],
+    "uptime": 16783.79
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 52,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 11:56:48 - 6102dfc3-0042-4940-924c-530efa493b85 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:42:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:42:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 17:26:48 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 78306,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 229769216,
+      "heapTotal": 149614592,
+      "heapUsed": 144668360,
+      "external": 6537983,
+      "arrayBuffers": 3647339
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.76,
+      2.17,
+      2.21
+    ],
+    "uptime": 26121.23
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 42,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 11:56:48 - a0d60c8c-7296-4fed-b104-48b5d3fb5ce6 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:42:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:42:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 17:26:48 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 78306,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 229900288,
+      "heapTotal": 149614592,
+      "heapUsed": 144786840,
+      "external": 6548287,
+      "arrayBuffers": 3655555
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.76,
+      2.17,
+      2.21
+    ],
+    "uptime": 26121.25
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 42,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 11:56:51 - 0fde7c57-0440-46c2-bd8d-0474ad3a1531 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:42:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:42:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 17:26:51 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 78306,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 230031360,
+      "heapTotal": 149614592,
+      "heapUsed": 144879696,
+      "external": 6556479,
+      "arrayBuffers": 3663747
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.76,
+      2.17,
+      2.21
+    ],
+    "uptime": 26123.65
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 42,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 18:04:55 - ad0f1a0c-db16-407d-825f-a8a60e9aeecc - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:42:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:42:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 23:34:55 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 93893,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 232972288,
+      "heapTotal": 151711744,
+      "heapUsed": 147465824,
+      "external": 6538473,
+      "arrayBuffers": 3647829
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.08,
+      1.04,
+      0.92
+    ],
+    "uptime": 48207.79
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 42,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 18:04:55 - d8913563-36cd-4ec9-9d36-fc13830bcf33 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:42:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:42:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 23:34:55 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 93893,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 232972288,
+      "heapTotal": 151711744,
+      "heapUsed": 147583904,
+      "external": 6548777,
+      "arrayBuffers": 3656045
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.08,
+      1.04,
+      0.92
+    ],
+    "uptime": 48207.81
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 42,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 18:04:57 - b04a35d4-8104-4bdf-b2f5-e237e3f70e06 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:42:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:42:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 23:34:57 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 93893,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 232017920,
+      "heapTotal": 150663168,
+      "heapUsed": 147167488,
+      "external": 6556969,
+      "arrayBuffers": 3655611
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.07,
+      1.04,
+      0.92
+    ],
+    "uptime": 48210.06
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 42,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 18:20:02 - 9df2dd20-c286-4720-9b63-5340340cc4d2 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:45:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:45:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 23:50:01 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 100924,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 271749120,
+      "heapTotal": 189648896,
+      "heapUsed": 164196456,
+      "external": 6936752,
+      "arrayBuffers": 4043584
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.85,
+      2.67,
+      1.94
+    ],
+    "uptime": 49114.34
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 45,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 18:20:02 - 0113bb34-de8e-4359-9a37-ba73e865382a - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:45:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:45:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 23:50:02 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 100924,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 271880192,
+      "heapTotal": 189648896,
+      "heapUsed": 164310656,
+      "external": 6947056,
+      "arrayBuffers": 4051800
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.85,
+      2.67,
+      1.94
+    ],
+    "uptime": 49114.36
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 45,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 18:20:02 - 9d9343df-e427-41ca-8038-da2f82d0a24b - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:45:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:45:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 23:50:02 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 100924,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 271880192,
+      "heapTotal": 189648896,
+      "heapUsed": 164403512,
+      "external": 6955248,
+      "arrayBuffers": 4059992
+    }
+  },
+  "os": {
+    "loadavg": [
+      3.85,
+      2.67,
+      1.94
+    ],
+    "uptime": 49114.53
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 45,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 18:21:45 - d330a469-8e4e-4d10-86de-b59235f31104 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:45:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:45:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 23:51:45 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 101846,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 275570688,
+      "heapTotal": 193056768,
+      "heapUsed": 164176384,
+      "external": 6859413,
+      "arrayBuffers": 3967310
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.77,
+      2.62,
+      2
+    ],
+    "uptime": 49217.63
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 45,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 18:21:45 - 77ad31a5-50b5-42ab-8cc5-51179ec8f13a - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:45:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:45:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 23:51:45 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 101846,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 275701760,
+      "heapTotal": 193056768,
+      "heapUsed": 164290264,
+      "external": 6869717,
+      "arrayBuffers": 3975526
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.77,
+      2.62,
+      2
+    ],
+    "uptime": 49217.65
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 45,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 18:21:45 - 897224dd-90dc-4b37-bd2d-ebd5e03d274f - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:45:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:45:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 23:51:45 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 101846,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 275701760,
+      "heapTotal": 193056768,
+      "heapUsed": 164383104,
+      "external": 6877909,
+      "arrayBuffers": 3983718
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.77,
+      2.62,
+      2
+    ],
+    "uptime": 49217.84
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 45,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 18:24:54 - 61b79e84-7ec0-467b-8421-3a3f06a782b1 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:45:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:45:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 23:54:54 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 104039,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 271339520,
+      "heapTotal": 189386752,
+      "heapUsed": 163196056,
+      "external": 6860428,
+      "arrayBuffers": 3967260
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.83,
+      2.63,
+      2.11
+    ],
+    "uptime": 49406.45
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 45,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 18:24:54 - 87879b36-b8bd-4375-890c-ec794a57feaa - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:45:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:45:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 23:54:54 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 104039,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 271339520,
+      "heapTotal": 189386752,
+      "heapUsed": 163310400,
+      "external": 6870732,
+      "arrayBuffers": 3975476
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.83,
+      2.63,
+      2.11
+    ],
+    "uptime": 49406.46
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 45,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}
+2024-04-30 18:24:54 - 338f66e7-53de-462e-b402-04bc91500eb0 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:45:17)
+    at process.emit (node:events:518:28)
+    at process.emit (node:domain:488:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:45:17)\n    at process.emit (node:events:518:28)\n    at process.emit (node:domain:488:12)\n    at process.emit.sharedData.processEmitHook.installedValue [as emit] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)",
+  "exception": true,
+  "date": "Tue Apr 30 2024 23:54:54 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 104039,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 271339520,
+      "heapTotal": 189386752,
+      "heapUsed": 163404288,
+      "external": 6878924,
+      "arrayBuffers": 3983668
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.83,
+      2.63,
+      2.11
+    ],
+    "uptime": 49406.65
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 45,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:domain",
+      "function": "process.emit",
+      "line": 488,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/node_modules/@cspotcode/source-map-support/source-map-support.js",
+      "function": "process.emit.sharedData.processEmitHook.installedValue [as emit]",
+      "line": 745,
+      "method": "installedValue [as emit]",
+      "native": false
+    }
+  ]
+}

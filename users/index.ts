@@ -1,37 +1,56 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import express, { Request, Response } from 'express';
+import express from 'express';
 import routes from './src/routes/user/userRoutes';
 import { PORT } from './env';
 import helmet from 'helmet';
 import cors from 'cors';
-// import {mailTransporter} from './src/email/email'
+import Redis from 'ioredis';
+import userService from './src/services/userService';
+// const publisher = new Redis();
+const subscriber = new Redis();
+
+
 
 const app = express();
-process.env.PORT || 8000;
+
 
 app.use(express.json());
-
 
 // Use Helmet middleware
 app.use(helmet());
 
 // Use CORS middleware
 app.use(cors());
+
+// Mount routes
 routes(app);
-// Start the server
+
+// // Function to publish user-related data
+// async function publishUserData(data) {
+//   await publisher.publish('users_channel', JSON.stringify(data));
+//   console.log('vgfggyh');
+// }
+// Subscribe to channels
+subscriber.subscribe('rides_channel');
+//subscriber.subscribe('users_channel');
+
+
+
+// Handling ride-related data
+subscriber.on('message', async (channel, message) => {
+  console.log(`Received ride-related data from ${channel}:`, JSON.parse(message));
+  await userService.handleUserRelatedData(channel, message);
+
+
+});
+// subscriber.on('message', async (channel:any, message:any) => {
+// //  await handleUserRelatedData(channel, message);
+//   // console.log(`Received ride-related data from ${channel}:`, JSON.parse(message));
+// });
+
+
+
+
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
 });
 
-// const mailDetails = {
-//   to: "jasprettykaur@gmail.com",
-//   subject: 'Account created.',
-//   text: 'Your account has been successfully created.',
-// }
-// console.log(mailDetails)
-//  mailTransporter.sendMail(mailDetails)
-
-// process.on('uncaughtException', err => {
-//   console.error(err, 'Uncaught Exception thrown');
-//   // process.exit(1);
-// });

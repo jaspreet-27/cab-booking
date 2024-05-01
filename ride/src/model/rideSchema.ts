@@ -6,23 +6,22 @@ import { error } from 'winston'
 import { Status } from "../utils/enums/rideEnum";
 
 class ride extends Model<Ride> implements Ride {
-    public id?: string | undefined;
+    public id?: string;
     public from: string;
     public to: string;
     public time: Date;
-    public driverId: string;
+    public driverId?: string;
     public price: number;
-    public date: Date
-    public status: Status;
-    public createdAt?: Date
-    public updatedAt?: Date
-    public deletedAt?: Date
-    public deletedBy?: string
-    public isDeleted?: boolean
+    public date: Date;
+    public status?: Status;  
+    public createdAt?: Date;
+    public updatedAt?: Date;
+    public deletedAt?: Date;
+    public deletedBy?: string;
+    public isDeleted?: boolean;
 }
 
 ride.init({
-
     id: {
         type: DataTypes.UUID,
         defaultValue: DataTypes.UUIDV4,
@@ -38,11 +37,11 @@ ride.init({
     },
     time: {
         type: DataTypes.DATE
-
     },
     driverId: {
-        type: DataTypes.INTEGER,
-        allowNull: false
+        type: DataTypes.STRING,
+        // allowNull: false
+        defaultValue: "wewe"
     },
     price: {
         type: DataTypes.FLOAT,
@@ -88,16 +87,3 @@ sequelize
     })
 
 export default { ride }
-    
-
-
-
-
-
-
-
-
-
-
-
-

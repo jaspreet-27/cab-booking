@@ -7,8 +7,7 @@
 import jwt from 'jsonwebtoken';
 import { db } from '../models';
 import { message, statusCode } from '../utils/response/constrant';
-import   {failResponse} from '../utils/response/response';
-
+import { failResponse } from '../utils/response/response';
 
 /* Environment */
 import { config } from '../config/default';

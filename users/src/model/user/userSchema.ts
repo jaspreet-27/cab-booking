@@ -18,7 +18,6 @@ class user extends Model<User> implements User {
   public isDeleted?: boolean;
   public otp?: number;
   public otpExipration?: Date;
-
 }
 
 user.init(
@@ -69,13 +68,13 @@ user.init(
       type: DataTypes.INTEGER,
     },
     otpExipration: {
-      type: DataTypes.DATE
-    }
+      type: DataTypes.DATE,
+    },
   },
   {
     sequelize,
     modelName: 'user',
-  }
+  },
 );
 
 sequelize
