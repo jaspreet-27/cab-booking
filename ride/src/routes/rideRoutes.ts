@@ -1,12 +1,11 @@
 import { Express } from 'express'
 import rideController from '../controllers/rideController'
-// import validationMiddleware from '../../validations/validation'
+import {validateRequest,ride,updateRide} from '../utils/validations/validation';
 
 const rideRoute = (app: Express) => {
-  app.post('/', rideController.createRide)
-//   app.get('/', userController.getUsers)
-//   app.get('/:id', userController.getUser)
-//   app.put('/:id', validationMiddleware, userController.updateUser)
-//   app.delete('/:id', userController.deleteUser)
+  app.post('/', validateRequest(ride),rideController.createRide)
+  app.get('/', rideController.getRides)
+  app.put('/:id',validateRequest(updateRide), rideController.updateUser)
+  app.delete('/:id', rideController.deleteUser)
 }
 export default rideRoute

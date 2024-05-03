@@ -1,0 +1,1172 @@
+2024-05-02 19:49:49 - 2564447d-8552-4125-9125-8aa497f6f0d8 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)
+    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)
+    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27) {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)\n    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)\n    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27)",
+  "exception": true,
+  "date": "Fri May 03 2024 01:19:49 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 94415,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 269836288,
+      "heapTotal": 188497920,
+      "heapUsed": 164791312,
+      "external": 4682579,
+      "arrayBuffers": 1787294
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.37,
+      3.02,
+      3.02
+    ],
+    "uptime": 57954.07
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js",
+      "function": "Sequelize.log",
+      "line": 1281,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 22,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js",
+      "function": "Query._logQuery",
+      "line": 376,
+      "method": "_logQuery",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js",
+      "function": "Query.run",
+      "line": 39,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+2024-05-02 19:49:49 - 32f2636b-dbcc-4f5d-97bf-775378082d55 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)
+    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)
+    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27) {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)\n    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)\n    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27)",
+  "exception": true,
+  "date": "Fri May 03 2024 01:19:49 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 94415,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 269836288,
+      "heapTotal": 188497920,
+      "heapUsed": 165007672,
+      "external": 4691770,
+      "arrayBuffers": 1796485
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.37,
+      3.02,
+      3.02
+    ],
+    "uptime": 57954.08
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js",
+      "function": "Sequelize.log",
+      "line": 1281,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 22,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js",
+      "function": "Query._logQuery",
+      "line": 376,
+      "method": "_logQuery",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js",
+      "function": "Query.run",
+      "line": 39,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+2024-05-02 19:49:49 - d4a2becc-256d-487e-8db2-3f77dba5f34f - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)
+    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)
+    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27) {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)\n    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)\n    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27)",
+  "exception": true,
+  "date": "Fri May 03 2024 01:19:49 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 94415,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 269836288,
+      "heapTotal": 188497920,
+      "heapUsed": 165253040,
+      "external": 4701041,
+      "arrayBuffers": 1805756
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.37,
+      3.02,
+      3.02
+    ],
+    "uptime": 57954.08
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js",
+      "function": "Sequelize.log",
+      "line": 1281,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 22,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js",
+      "function": "Query._logQuery",
+      "line": 376,
+      "method": "_logQuery",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js",
+      "function": "Query.run",
+      "line": 39,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+2024-05-02 19:49:49 - 9902a34b-dae4-48ce-9211-a00dce754002 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at /home/ditsdev152/Desktop/cab-booking/ride/src/model/rideSchema.ts:83:17
+    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:504:23)
+    at /home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:541:70 {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at /home/ditsdev152/Desktop/cab-booking/ride/src/model/rideSchema.ts:83:17\n    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:504:23)\n    at /home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:541:70",
+  "exception": true,
+  "date": "Fri May 03 2024 01:19:49 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 94415,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 269967360,
+      "heapTotal": 188497920,
+      "heapUsed": 165556672,
+      "external": 4719282,
+      "arrayBuffers": 1823997
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.37,
+      3.02,
+      3.02
+    ],
+    "uptime": 57954.09
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/src/model/rideSchema.ts",
+      "function": null,
+      "line": 83,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": "propagateAslWrapper",
+      "line": 504,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 70,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": null,
+      "line": 541,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2024-05-03 04:18:35 - ed5fed83-0d49-4832-b1c4-161292bfbed9 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)
+    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)
+    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27) {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)\n    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)\n    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27)",
+  "exception": true,
+  "date": "Fri May 03 2024 09:48:35 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 101327,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 279752704,
+      "heapTotal": 190959616,
+      "heapUsed": 155266520,
+      "external": 4545797,
+      "arrayBuffers": 1650512
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.16,
+      0.98,
+      1.02
+    ],
+    "uptime": 88480.24
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js",
+      "function": "Sequelize.log",
+      "line": 1281,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 22,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js",
+      "function": "Query._logQuery",
+      "line": 376,
+      "method": "_logQuery",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js",
+      "function": "Query.run",
+      "line": 39,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+2024-05-03 04:18:35 - 95983ef0-bfa0-4503-a878-ea00cd25aaa1 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)
+    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)
+    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27) {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)\n    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)\n    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27)",
+  "exception": true,
+  "date": "Fri May 03 2024 09:48:35 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 101327,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 279752704,
+      "heapTotal": 190959616,
+      "heapUsed": 155573704,
+      "external": 4555017,
+      "arrayBuffers": 1659732
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.16,
+      0.98,
+      1.02
+    ],
+    "uptime": 88480.25
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js",
+      "function": "Sequelize.log",
+      "line": 1281,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 22,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js",
+      "function": "Query._logQuery",
+      "line": 376,
+      "method": "_logQuery",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js",
+      "function": "Query.run",
+      "line": 39,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+2024-05-03 04:18:35 - 5bed832b-29bb-41b9-98a7-e324a6f183a3 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)
+    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)
+    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27) {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at Sequelize.log (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js:1281:15)\n    at Query._logQuery (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js:376:22)\n    at Query.run (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js:39:27)",
+  "exception": true,
+  "date": "Fri May 03 2024 09:48:35 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 101327,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 279752704,
+      "heapTotal": 190959616,
+      "heapUsed": 155883616,
+      "external": 4564258,
+      "arrayBuffers": 1668973
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.16,
+      0.98,
+      1.02
+    ],
+    "uptime": 88480.26
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/sequelize.js",
+      "function": "Sequelize.log",
+      "line": 1281,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 22,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/abstract/query.js",
+      "function": "Query._logQuery",
+      "line": 376,
+      "method": "_logQuery",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/sequelize/src/dialects/mysql/query.js",
+      "function": "Query.run",
+      "line": 39,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+2024-05-03 04:18:35 - 63e49405-ac7d-4548-b9e5-449ed1a7cd31 - error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:933:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)
+    at console.value (node:internal/console/constructor:304:16)
+    at console.log (node:internal/console/constructor:379:26)
+    at /home/ditsdev152/Desktop/cab-booking/ride/src/model/rideSchema.ts:83:17
+    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:504:23)
+    at /home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:541:70 {
+  "error": {
+    "errno": -5,
+    "syscall": "write",
+    "code": "EIO"
+  },
+  "stack": "Error: EIO: i/o error, write\n    at writeSync (node:fs:933:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:502:10)\n    at console.value (node:internal/console/constructor:304:16)\n    at console.log (node:internal/console/constructor:379:26)\n    at /home/ditsdev152/Desktop/cab-booking/ride/src/model/rideSchema.ts:83:17\n    at propagateAslWrapper (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:504:23)\n    at /home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:541:70",
+  "exception": true,
+  "date": "Fri May 03 2024 09:48:35 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 101327,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 279752704,
+      "heapTotal": 190959616,
+      "heapUsed": 156283000,
+      "external": 4582533,
+      "arrayBuffers": 1687248
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.16,
+      0.98,
+      1.02
+    ],
+    "uptime": 88480.27
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "node:fs",
+      "function": "writeSync",
+      "line": 933,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/fs/sync_write_stream",
+      "function": "SyncWriteStream._write",
+      "line": 27,
+      "method": "_write",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/streams/writable",
+      "function": "writeOrBuffer",
+      "line": 564,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "_write",
+      "line": 493,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/streams/writable",
+      "function": "SyncWriteStream.Writable.write",
+      "line": 502,
+      "method": "write",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/console/constructor",
+      "function": "console.value",
+      "line": 304,
+      "method": "value",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/console/constructor",
+      "function": "console.log",
+      "line": 379,
+      "method": "log",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/src/model/rideSchema.ts",
+      "function": null,
+      "line": 83,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": "propagateAslWrapper",
+      "line": 504,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 70,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": null,
+      "line": 541,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2024-05-03 04:18:37 - b1ebce35-0369-4cb2-a568-a305feadf67a - error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle (node:net:1897:16)
+    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)
+    at listenInCluster (node:net:1945:12)
+    at Server.listen (node:net:2037:7)
+    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:43:20)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12) {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -98,
+    "syscall": "listen",
+    "address": "::",
+    "port": 4000
+  },
+  "stack": "Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle (node:net:1897:16)\n    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js:97:23)\n    at listenInCluster (node:net:1945:12)\n    at Server.listen (node:net:2037:7)\n    at Function.listen (/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/index.ts:43:20)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module.m._compile (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.require.extensions.<computed> [as .ts] (/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts:1621:12)",
+  "exception": true,
+  "date": "Fri May 03 2024 09:48:37 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 101400,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/ts-node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/index.ts"
+    ],
+    "memoryUsage": {
+      "rss": 273137664,
+      "heapTotal": 186949632,
+      "heapUsed": 160753912,
+      "external": 4237696,
+      "arrayBuffers": 1343505
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.16,
+      0.98,
+      1.02
+    ],
+    "uptime": 88481.79
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle",
+      "line": 1897,
+      "method": "setupListenHandle",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/async-listener/index.js",
+      "function": "Server._listen2",
+      "line": 97,
+      "method": "_listen2",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2037,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/node_modules/express/lib/application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/index.ts",
+      "function": null,
+      "line": 43,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Module.m._compile",
+      "line": 1618,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "/home/ditsdev152/.nvm/versions/node/v20.12.0/lib/node_modules/ts-node/src/index.ts",
+      "function": "Object.require.extensions.<computed> [as .ts]",
+      "line": 1621,
+      "method": "ts]",
+      "native": false
+    }
+  ]
+}
