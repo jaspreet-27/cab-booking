@@ -1170,3 +1170,219 @@ Error: listen EADDRINUSE: address already in use :::4000
     }
   ]
 }
+2024-05-03 07:04:31 - 3909fe74-f516-4cf9-bc01-bd96dd8e9e4e - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/.dist/index.js:44:17)
+    at process.emit (node:events:518:28) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/.dist/index.js:44:17)\n    at process.emit (node:events:518:28)",
+  "exception": true,
+  "date": "Fri May 03 2024 12:34:31 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 132645,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/.dist/index.js"
+    ],
+    "memoryUsage": {
+      "rss": 78532608,
+      "heapTotal": 23265280,
+      "heapUsed": 20977328,
+      "external": 2411933,
+      "arrayBuffers": 142923
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.6,
+      1.87,
+      2.14
+    ],
+    "uptime": 98436.22
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/.dist/index.js",
+      "function": null,
+      "line": 44,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    }
+  ]
+}
+2024-05-03 07:04:34 - 4e579d41-ccc9-4658-b1f9-3816863db4e6 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/.dist/index.js:44:17)
+    at process.emit (node:events:518:28) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/.dist/index.js:44:17)\n    at process.emit (node:events:518:28)",
+  "exception": true,
+  "date": "Fri May 03 2024 12:34:34 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 132645,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/.dist/index.js"
+    ],
+    "memoryUsage": {
+      "rss": 78663680,
+      "heapTotal": 23265280,
+      "heapUsed": 21052992,
+      "external": 2414045,
+      "arrayBuffers": 142947
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.6,
+      1.87,
+      2.14
+    ],
+    "uptime": 98438.63
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/.dist/index.js",
+      "function": null,
+      "line": 44,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    }
+  ]
+}
+2024-05-03 07:06:18 - 54e62aae-0915-44e7-9dbe-31f7bafd9b52 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/.dist/index.js:42:17)
+    at process.emit (node:events:518:28) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/.dist/index.js:42:17)\n    at process.emit (node:events:518:28)",
+  "exception": true,
+  "date": "Fri May 03 2024 12:36:18 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 133573,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/.dist/index.js"
+    ],
+    "memoryUsage": {
+      "rss": 78872576,
+      "heapTotal": 23789568,
+      "heapUsed": 21278728,
+      "external": 2604119,
+      "arrayBuffers": 335109
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.4,
+      2.19,
+      2.23
+    ],
+    "uptime": 98542.44
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/.dist/index.js",
+      "function": null,
+      "line": 42,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    }
+  ]
+}
+2024-05-03 07:06:19 - 56368fcc-5c85-4ac8-a260-f5048c5dfed2 - error: uncaughtException: Redis.quit is not a function
+TypeError: Redis.quit is not a function
+    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/.dist/index.js:42:17)
+    at process.emit (node:events:518:28) {
+  "error": {},
+  "stack": "TypeError: Redis.quit is not a function\n    at process.<anonymous> (/home/ditsdev152/Desktop/cab-booking/ride/.dist/index.js:42:17)\n    at process.emit (node:events:518:28)",
+  "exception": true,
+  "date": "Fri May 03 2024 12:36:19 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 133573,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/ride",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+      "/home/ditsdev152/Desktop/cab-booking/ride/.dist/index.js"
+    ],
+    "memoryUsage": {
+      "rss": 78872576,
+      "heapTotal": 23789568,
+      "heapUsed": 21518640,
+      "external": 2606231,
+      "arrayBuffers": 335133
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.4,
+      2.19,
+      2.23
+    ],
+    "uptime": 98544.05
+  },
+  "trace": [
+    {
+      "column": 17,
+      "file": "/home/ditsdev152/Desktop/cab-booking/ride/.dist/index.js",
+      "function": null,
+      "line": 42,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "node:events",
+      "function": "process.emit",
+      "line": 518,
+      "method": "emit",
+      "native": false
+    }
+  ]
+}

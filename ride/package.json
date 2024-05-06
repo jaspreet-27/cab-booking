@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm-watch dev",
+    "watch": "npm-watch dev",
+    "build": "tsc",
+    "start": "npm run build && node .dist/index.js",
     "dev": "nodemon --exec ts-node index.ts",
+    "serve": "pm2 start .dist/index.js --name=rideModule",
     "prettier": "prettier --write .",
     "prettier:check": "prettier --check ."
   },
@@ -36,6 +39,7 @@
     "nodemailer": "^6.9.13",
     "nodemon": "^3.1.0",
     "npm-watch": "^0.11.0",
+    "pm2": "^5.3.1",
     "redis": "^4.6.13",
     "sequelize": "^6.37.3",
     "typescript": "^5.4.5",

@@ -35,9 +35,9 @@ policies:
 pipelines:
   userPipeline:
     apiEndpoints:
-      - user
+      - users
     policies:
-      - cors:
+      - cors:x
           - action:
               origin: '*'
               methods: 'GET,PUT,PATCH,POST,DELETE'
