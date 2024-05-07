@@ -6,6 +6,7 @@ const userRoute = (app: Express) => {
   app.post('/', validateRequest(user), userController.createUser);
   app.get('/', userController.getUsers);
   app.get('/:id', userController.getUser);
+  app.post('/login', userController.loginCustomer);
   app.put('/:id', validateRequest(updateUser), userController.updateUser);
   app.delete('/:id', userController.deleteUser);
   app.put('/resetPassword',validateRequest(resetPassword), userController.resetPassword);

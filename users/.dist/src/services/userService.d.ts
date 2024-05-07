@@ -400,6 +400,7 @@ declare function deleteUser(params: UserDeleteAttribute): Promise<{
     hasHook<K_14 extends keyof import("sequelize/types/hooks").SequelizeHooks<M, TModelAttributes, TCreationAttributes>>(hookType: K_14): boolean;
     hasHooks<K_15 extends keyof import("sequelize/types/hooks").SequelizeHooks<M, TModelAttributes, TCreationAttributes>>(hookType: K_15): boolean;
 } | "notExist">;
+declare function loginCustomerService(data: any): Promise<string>;
 declare function changePasswordService(data: any, customerId: string): Promise<{
     id?: string;
     firstName: string;
@@ -563,6 +564,7 @@ declare function resetPasswordEmailService(data: any): Promise<{
 } | "userDoesNotExists">;
 declare const _default: {
     createUser: typeof createUser;
+    loginCustomerService: typeof loginCustomerService;
     updateUser: typeof updateUser;
     deleteUser: typeof deleteUser;
     getUsers: typeof getUsers;

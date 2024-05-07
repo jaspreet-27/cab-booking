@@ -4,6 +4,7 @@ declare function getUsers(req: Request, res: Response): Promise<void>;
 declare function getUser(req: Request, res: Response): Promise<void>;
 declare function updateUser(req: Request, res: Response): Promise<void>;
 declare function deleteUser(req: Request, res: Response): Promise<void>;
+declare function loginCustomer(req: Request, res: Response): Promise<void>;
 declare function changePassword(req: Request, res: Response): Promise<void>;
 declare function resetPassword(req: Request, res: Response): Promise<void>;
 declare function resetPasswordEmail(req: Request, res: Response): Promise<void>;
@@ -15,6 +16,7 @@ declare const _default: {
     getUser: typeof getUser;
     changePassword: typeof changePassword;
     resetPassword: typeof resetPassword;
+    loginCustomer: typeof loginCustomer;
     resetPasswordEmail: typeof resetPasswordEmail;
 };
 export default _default;

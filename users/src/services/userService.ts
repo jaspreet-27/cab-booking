@@ -1,5 +1,5 @@
 import logger from '../utils/logger/logger';
-import { hashPassword, comparePassword } from '../utils/comman/comman';
+import { hashPassword, comparePassword, generateToken } from '../utils/comman/comman';
 import userModel from '../model/user/userSchema';
 import { mailTransporter } from '../email/email';
 import { User, UserUpdateAttribute, UserDeleteAttribute, UserGetAttribute } from '../utils/interfaces/userInterface';
@@ -209,6 +209,40 @@ async function deleteUser(params: UserDeleteAttribute) {
 //   }
 // }
 
+async function loginCustomerService(data) {
+  try {
+    const { email, password } = data;
+    const user = await userModel.user.findOne({
+      where: {
+        email: email,
+      },
+    });
+    if (!user) {
+      return 'userDoesNotExist'; // Return message if user doesn't exist
+    } else {
+      const pass = await comparePassword(password, user.password);
+      if (pass !== true) {
+        return 'incorrectPassword'; // Return message if password is incorrect
+      }
+      else {
+        // Generate JWT token for authenticated user
+        const tokenReq = {
+          id: user.id,
+          firstName: user.firstName,
+          email: user.email,
+        };
+        const token: string = await generateToken(tokenReq);
+        return token; // Return JWT token
+      }
+    }
+  }
+  catch (err) {
+    logger.error(err);
+    throw new Error(err.message);
+  }
+}
+
+
 async function changePasswordService(data, customerId: string) {
   try {
     const { oldPassword, newPassword, confirmPassword } = data;
@@ -343,4 +377,4 @@ async function resetPasswordEmailService(data) {
   }
 }
 
-export default { createUser, updateUser, deleteUser, getUsers, getUserById, changePasswordService, handleUserRelatedData, resetPasswordService, resetPasswordEmailService };
+export default { createUser, loginCustomerService ,updateUser, deleteUser, getUsers, getUserById, changePasswordService, handleUserRelatedData, resetPasswordService, resetPasswordEmailService };

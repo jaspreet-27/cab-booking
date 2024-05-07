@@ -84,6 +84,52 @@ async function deleteUser(req: Request, res: Response) {
 //   }
 // }
 
+
+
+async function loginCustomer(req: Request, res: Response) {
+  try {
+    const data = await userService.loginCustomerService(req.body);
+    if (data == 'userDoesNotExist') {
+      res
+        .status(statusCode.notFound)
+        .json(
+          failResponse(
+            statusCode.badRequest,
+            data,
+            message.notExist('User'),
+          ),
+        );
+    }
+    else if (data == 'incorrectPassword') {
+      res
+        .status(statusCode.wrongPassword)
+        .json(
+          failResponse(
+            statusCode.badRequest,
+            data,
+            message.invalidlogin,
+          ),
+        );
+    }
+    else {
+      res
+        .status(statusCode.success)
+        .json(successResponse(statusCode.success, data, message.login));
+    }
+  } catch (err) {
+    logger.error(message.errorLog('userAdd', 'userController', err));
+    res
+      .status(statusCode.badRequest)
+      .json(
+        failResponse(
+          statusCode.badRequest,
+          err.message,
+          message.somethingWrong,
+        ),
+      );
+  }
+}
+
 async function changePassword(req: Request, res: Response) {
   try {
     const data = req.body;
@@ -150,5 +196,6 @@ export default {
   getUser,
   changePassword,
   resetPassword,
+  loginCustomer,
   resetPasswordEmail,
 };

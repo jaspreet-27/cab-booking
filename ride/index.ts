@@ -14,9 +14,9 @@ app.use(helmet());
 app.use(cors());
 routes(app);
 // Function to publish ride-related data
-async function publishRideData(data) {
-    await publisher.publish('rides_channel', JSON.stringify(data));
-}
+// async function publishRideData(data) {
+//     await publisher.publish('rides_channel', JSON.stringify(data));
+// }
 // Subscribe to user-related data
 subscriber.subscribe('users_channel');
 // // subscriber.subscribe('')

@@ -12,8 +12,8 @@ app.use(helmet());
 // Use CORS middleware
 app.use(cors());
 // Mount routes
-// routes(app);
-app.use('v1/user', routes);
+routes(app);
+// app.use('v1/user', routes);
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
 });

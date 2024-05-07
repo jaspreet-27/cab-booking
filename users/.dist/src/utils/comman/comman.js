@@ -12,8 +12,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.mailTransporter = exports.comparePassword = exports.hashPassword = void 0;
+exports.generateToken = exports.mailTransporter = exports.comparePassword = exports.hashPassword = void 0;
 const bcrypt_1 = __importDefault(require("bcrypt"));
+const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
 const saltRounds = 10;
 function hashPassword(plainPassword) {
     return __awaiter(this, void 0, void 0, function* () {
@@ -36,4 +37,33 @@ exports.mailTransporter = nodemailer_1.default.createTransport({
         pass: 'carq velv hjjl kdpv',
     },
 });
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29tbWFuLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vc3JjL3V0aWxzL2NvbW1hbi9jb21tYW4udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsb0RBQTRCO0FBQzVCLE1BQU0sVUFBVSxHQUFHLEVBQUUsQ0FBQztBQUV0QixTQUFzQixZQUFZLENBQUMsYUFBcUI7O1FBQ3RELE1BQU0sSUFBSSxHQUFHLE1BQU0sZ0JBQU0sQ0FBQyxXQUFXLENBQUMsVUFBVSxDQUFDLENBQUM7UUFDbEQsT0FBTyxNQUFNLGdCQUFNLENBQUMsUUFBUSxDQUFDLGFBQWEsRUFBRSxJQUFJLENBQUMsQ0FBQztJQUNwRCxDQUFDO0NBQUE7QUFIRCxvQ0FHQztBQUVELFNBQXNCLGVBQWUsQ0FBQyxhQUFxQixFQUFFLElBQVk7O1FBQ3ZFLE9BQU8sTUFBTSxnQkFBTSxDQUFDLFdBQVcsQ0FBQyxhQUFhLEVBQUUsSUFBSSxDQUFDLENBQUM7SUFDdkQsQ0FBQztDQUFBO0FBRkQsMENBRUM7QUFFRCw0REFBb0M7QUFDdkIsUUFBQSxlQUFlLEdBQUcsb0JBQVUsQ0FBQyxlQUFlLENBQUM7SUFDeEQsT0FBTyxFQUFFLE9BQU87SUFDaEIsSUFBSSxFQUFFO1FBQ0osSUFBSSxFQUFFLG1DQUFtQztRQUN6QyxJQUFJLEVBQUUscUJBQXFCO0tBQzVCO0NBQ0YsQ0FBQyxDQUFDIn0=
+// export class CommonFunction {
+//   private jwtInstance: typeof jwt;
+//   constructor(jwtInstance: typeof jwt) {
+//     this.jwtInstance = jwtInstance;
+//   }
+//   async generateToken(data) {
+//     const secret = process.env.TOKEN_KEY;
+//     if (!secret) {
+//       throw new Error('JWT secret is not defined');
+//     }
+//     const token: string = await this.jwtInstance.sign(data, secret, {
+//       expiresIn: 10000,
+//     });
+//     return token;
+//   }
+// }
+function generateToken(data) {
+    return __awaiter(this, void 0, void 0, function* () {
+        const secret = process.env.TOKEN_KEY;
+        if (!secret) {
+            throw new Error('JWT secret is not defined');
+        }
+        const token = yield jsonwebtoken_1.default.sign(data, secret, {
+            expiresIn: 10000,
+        });
+        return token;
+    });
+}
+exports.generateToken = generateToken;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29tbWFuLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vc3JjL3V0aWxzL2NvbW1hbi9jb21tYW4udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsb0RBQTRCO0FBQzVCLGdFQUErQjtBQUMvQixNQUFNLFVBQVUsR0FBRyxFQUFFLENBQUM7QUFFdEIsU0FBc0IsWUFBWSxDQUFDLGFBQXFCOztRQUN0RCxNQUFNLElBQUksR0FBRyxNQUFNLGdCQUFNLENBQUMsV0FBVyxDQUFDLFVBQVUsQ0FBQyxDQUFDO1FBQ2xELE9BQU8sTUFBTSxnQkFBTSxDQUFDLFFBQVEsQ0FBQyxhQUFhLEVBQUUsSUFBSSxDQUFDLENBQUM7SUFDcEQsQ0FBQztDQUFBO0FBSEQsb0NBR0M7QUFFRCxTQUFzQixlQUFlLENBQUMsYUFBcUIsRUFBRSxJQUFZOztRQUN2RSxPQUFPLE1BQU0sZ0JBQU0sQ0FBQyxXQUFXLENBQUMsYUFBYSxFQUFFLElBQUksQ0FBQyxDQUFDO0lBQ3ZELENBQUM7Q0FBQTtBQUZELDBDQUVDO0FBRUQsNERBQW9DO0FBQ3ZCLFFBQUEsZUFBZSxHQUFHLG9CQUFVLENBQUMsZUFBZSxDQUFDO0lBQ3hELE9BQU8sRUFBRSxPQUFPO0lBQ2hCLElBQUksRUFBRTtRQUNKLElBQUksRUFBRSxtQ0FBbUM7UUFDekMsSUFBSSxFQUFFLHFCQUFxQjtLQUM1QjtDQUNGLENBQUMsQ0FBQztBQUdILGdDQUFnQztBQUNoQyxxQ0FBcUM7QUFFckMsMkNBQTJDO0FBQzNDLHNDQUFzQztBQUN0QyxNQUFNO0FBRU4sZ0NBQWdDO0FBRWhDLDRDQUE0QztBQUM1QyxxQkFBcUI7QUFDckIsc0RBQXNEO0FBQ3RELFFBQVE7QUFFUix3RUFBd0U7QUFDeEUsMEJBQTBCO0FBQzFCLFVBQVU7QUFDVixvQkFBb0I7QUFDcEIsTUFBTTtBQUNOLElBQUk7QUFFSixTQUFlLGFBQWEsQ0FBQyxJQUFTOztRQUNwQyxNQUFNLE1BQU0sR0FBRyxPQUFPLENBQUMsR0FBRyxDQUFDLFNBQVMsQ0FBQztRQUNyQyxJQUFJLENBQUMsTUFBTSxFQUFFLENBQUM7WUFDWixNQUFNLElBQUksS0FBSyxDQUFDLDJCQUEyQixDQUFDLENBQUM7UUFDL0MsQ0FBQztRQUVELE1BQU0sS0FBSyxHQUFXLE1BQU0sc0JBQUcsQ0FBQyxJQUFJLENBQUMsSUFBSSxFQUFFLE1BQU0sRUFBRTtZQUNqRCxTQUFTLEVBQUUsS0FBSztTQUNqQixDQUFDLENBQUM7UUFDSCxPQUFPLEtBQUssQ0FBQztJQUNmLENBQUM7Q0FBQTtBQUVRLHNDQUFhIn0=
