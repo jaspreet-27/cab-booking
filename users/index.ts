@@ -1,8 +1,10 @@
 import express from 'express';
 import routes from './src/routes/user/userRoutes';
-import { PORT } from './env';
 import helmet from 'helmet';
 import cors from 'cors';
+import dotenv from 'dotenv';
+dotenv.config();
+
 import { subscribeAll } from './src/redis';
 subscribeAll();
 const app = express();
@@ -13,8 +15,9 @@ app.use(helmet());
 app.use(cors());
 // Mount routes
 routes(app);
+process.env.PORT;
 // app.use('v1/user', routes);
-app.listen(PORT, () => {
-  console.log(`Server is running at http://localhost:${PORT}`);
+app.listen(process.env.PORT, () => {
+  console.log(`Server is running at http://localhost:${process.env.PORT}`);
 });
 

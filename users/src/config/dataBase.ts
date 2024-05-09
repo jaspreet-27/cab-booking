@@ -1,21 +1,24 @@
 import { Sequelize } from 'sequelize';
-// import Redis from 'ioredis';
-// import userSchema from 'src/model/user/userSchema';
+import dotenv from 'dotenv';
+dotenv.config();
 
-// // Create a Redis connection
-// const redis = new Redis();
 
 const sequelize = new Sequelize(
-  'Cab Booking',
-  'root',
-  '',
+  // 'Cab Booking',
+  // 'root',
+  // '',
+  process.env.DATABASE,
+  process.env.dbUsername,
+  process.env.bPassword,
+
 
   {
     host: 'localhost',
     port: 3306,
     dialect: 'mysql',
-    logging:true
+    logging: true
   },
+
 );
 
 sequelize

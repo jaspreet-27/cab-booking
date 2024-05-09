@@ -1,9 +1,14 @@
 import { Sequelize } from 'sequelize'
+import dotenv from 'dotenv';
+dotenv.config();
 
 const sequelize = new Sequelize(
-  'Cab Booking',
-  'root',
-  '',
+  // 'Cab Booking',
+  // 'root',
+  // '',
+  process.env.DATABASE,
+  process.env.dbUsername,
+  process.env.bPassword,
 
   {
     host: 'localhost',

@@ -1,11 +1,14 @@
 import cors from 'cors';
 import express from 'express';
 import helmet from 'helmet';
-import { PORT } from './env';
+import dotenv from 'dotenv';
+dotenv.config();
+
+// import { PORT } from './env'
 import routes from './src/routes/rideRoutes';
 const Redis = require('ioredis');
 const subscriber = new Redis();
-const publisher = new Redis();
+// const publisher = new Redis();
 const app = express();
 
 // Middlewares
@@ -13,6 +16,7 @@ app.use(express.json());
 app.use(helmet());
 app.use(cors());
 routes(app);
+process.env.PORT;
 // Function to publish ride-related data
 // async function publishRideData(data) {
 //     await publisher.publish('rides_channel', JSON.stringify(data));
@@ -27,8 +31,8 @@ subscriber.on('message', (channel, message) => {
     // Process the received user-related data as needed
 });
 // Start the server
-const server = app.listen(PORT, () => {
-    console.log(`Server is running at http://localhost:${PORT}`);
+const server = app.listen(process.env.PORT, () => {
+    console.log(`Server is running at http://localhost:${process.env.PORT}`);
 });
 
 // Handle server shutdown gracefully
