@@ -1,0 +1,397 @@
+2024-05-09 07:34:48 - cef8face-d4f4-42b4-a54b-4ec198c95c81 - error: uncaughtException: listen EADDRINUSE: address already in use :::3001
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle (node:net:1897:16)
+    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:97:23)
+    at listenInCluster (node:net:1945:12)
+    at Server.listen (node:net:2037:7)
+    at Function.listen (/home/ditsdev152/Desktop/cab-booking/users/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/.dist/index.js:22:5)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Module._load (node:internal/modules/cjs/loader:1022:12) {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -98,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3001
+  },
+  "stack": "Error: listen EADDRINUSE: address already in use :::3001\n    at Server.setupListenHandle (node:net:1897:16)\n    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:97:23)\n    at listenInCluster (node:net:1945:12)\n    at Server.listen (node:net:2037:7)\n    at Function.listen (/home/ditsdev152/Desktop/cab-booking/users/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/.dist/index.js:22:5)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Module._load (node:internal/modules/cjs/loader:1022:12)",
+  "exception": true,
+  "date": "Thu May 09 2024 13:04:48 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 29040,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+      "/home/ditsdev152/Desktop/cab-booking/users/.dist/index.js"
+    ],
+    "memoryUsage": {
+      "rss": 106078208,
+      "heapTotal": 59629568,
+      "heapUsed": 29674024,
+      "external": 2422146,
+      "arrayBuffers": 147440
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.91,
+      1.36,
+      1.1
+    ],
+    "uptime": 13143.59
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle",
+      "line": 1897,
+      "method": "setupListenHandle",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js",
+      "function": "Server._listen2",
+      "line": 97,
+      "method": "_listen2",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2037,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/express/lib/application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/.dist/index.js",
+      "function": null,
+      "line": 22,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1206,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 1022,
+      "method": "_load",
+      "native": false
+    }
+  ]
+}
+2024-05-09 07:36:41 - 9364a64f-a421-4544-98d9-c6aa52c50f82 - error: uncaughtException: listen EADDRINUSE: address already in use :::3001
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle (node:net:1897:16)
+    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:97:23)
+    at listenInCluster (node:net:1945:12)
+    at Server.listen (node:net:2037:7)
+    at Function.listen (/home/ditsdev152/Desktop/cab-booking/users/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/.dist/index.js:22:5)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Module._load (node:internal/modules/cjs/loader:1022:12) {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -98,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3001
+  },
+  "stack": "Error: listen EADDRINUSE: address already in use :::3001\n    at Server.setupListenHandle (node:net:1897:16)\n    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:97:23)\n    at listenInCluster (node:net:1945:12)\n    at Server.listen (node:net:2037:7)\n    at Function.listen (/home/ditsdev152/Desktop/cab-booking/users/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/.dist/index.js:22:5)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Module._load (node:internal/modules/cjs/loader:1022:12)",
+  "exception": true,
+  "date": "Thu May 09 2024 13:06:41 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 30982,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+      "/home/ditsdev152/Desktop/cab-booking/users/.dist/index.js"
+    ],
+    "memoryUsage": {
+      "rss": 104210432,
+      "heapTotal": 57270272,
+      "heapUsed": 37271760,
+      "external": 2422154,
+      "arrayBuffers": 147448
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.96,
+      1.7,
+      1.25
+    ],
+    "uptime": 13256.51
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle",
+      "line": 1897,
+      "method": "setupListenHandle",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js",
+      "function": "Server._listen2",
+      "line": 97,
+      "method": "_listen2",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2037,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/express/lib/application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/.dist/index.js",
+      "function": null,
+      "line": 22,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1206,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 1022,
+      "method": "_load",
+      "native": false
+    }
+  ]
+}
+2024-05-09 07:38:43 - ea89ff48-032b-4435-b44f-41e25df87a05 - error: uncaughtException: listen EADDRINUSE: address already in use :::3001
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle (node:net:1897:16)
+    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:97:23)
+    at listenInCluster (node:net:1945:12)
+    at Server.listen (node:net:2037:7)
+    at Function.listen (/home/ditsdev152/Desktop/cab-booking/users/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/.dist/index.js:22:5)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Module._load (node:internal/modules/cjs/loader:1022:12) {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -98,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3001
+  },
+  "stack": "Error: listen EADDRINUSE: address already in use :::3001\n    at Server.setupListenHandle (node:net:1897:16)\n    at Server._listen2 (/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js:97:23)\n    at listenInCluster (node:net:1945:12)\n    at Server.listen (node:net:2037:7)\n    at Function.listen (/home/ditsdev152/Desktop/cab-booking/users/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/ditsdev152/Desktop/cab-booking/users/.dist/index.js:22:5)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Module._load (node:internal/modules/cjs/loader:1022:12)",
+  "exception": true,
+  "date": "Thu May 09 2024 13:08:43 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 32797,
+    "uid": 1000,
+    "gid": 1000,
+    "cwd": "/home/ditsdev152/Desktop/cab-booking/users",
+    "execPath": "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+    "version": "v20.12.0",
+    "argv": [
+      "/home/ditsdev152/.nvm/versions/node/v20.12.0/bin/node",
+      "/home/ditsdev152/Desktop/cab-booking/users/.dist/index.js",
+      "run"
+    ],
+    "memoryUsage": {
+      "rss": 107044864,
+      "heapTotal": 60678144,
+      "heapUsed": 30285552,
+      "external": 2422160,
+      "arrayBuffers": 147454
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.54,
+      1.68,
+      1.31
+    ],
+    "uptime": 13379.2
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle",
+      "line": 1897,
+      "method": "setupListenHandle",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/async-listener/index.js",
+      "function": "Server._listen2",
+      "line": 97,
+      "method": "_listen2",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2037,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/node_modules/express/lib/application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "/home/ditsdev152/Desktop/cab-booking/users/.dist/index.js",
+      "function": null,
+      "line": 22,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1369,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1427,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1206,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 1022,
+      "method": "_load",
+      "native": false
+    }
+  ]
+}
